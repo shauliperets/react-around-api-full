@@ -1,0 +1,22 @@
+.elements {
+  padding: 50px 0 0 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 880px;
+  gap: 21px 17px;
+}
+
+@media screen and (max-width: 940px) {
+  .elements {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .elements {
+    padding: 5px 0 0 0;
+    max-width: 282px;
+  }
+}

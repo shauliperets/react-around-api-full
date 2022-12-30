@@ -1,0 +1,80 @@
+.card {
+  background-color: #ffffff;
+  width: 282px;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+}
+
+.card__image {
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  width: 282px;
+  height: 282px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.card__delete-button {
+  background-color: transparent;
+  position: absolute;
+  cursor: pointer;
+  right: 15px;
+  top: 18px;
+  border: 0;
+  visibility: hidden;
+}
+
+.card__delete-button_active {
+  visibility: visible;
+}
+
+.card__delete-button:hover {
+  opacity: 0.6;
+}
+
+.card__title-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 15px 31px 21px;
+}
+
+.card__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__like-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__like-counter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.card__like-button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.card__icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

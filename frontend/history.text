@@ -1,0 +1,1000 @@
+  994  git add --all
+  995  git commit -m "Add popup"
+  996  git push
+  997  git push --set-upstream origin develop
+  998  git commit -m "Add media query"
+  999  git add --all
+ 1000  git commit -m "Add media query"
+ 1001  git push
+ 1002  cd Workspace/Practicum100/web_project_4/web_project_4/
+ 1003  git add --all
+ 1004  git commit -m "Fix: window open"
+ 1005  git barnch
+ 1006  git branch
+ 1007  git push
+ 1008  git add --all
+ 1009  git commit -m "Add: hover effect"
+ 1010  git push
+ 1011  git swich main
+ 1012  git switch main
+ 1013  git branch
+ 1014  git merge develop
+ 1015  git push
+ 1016  git add --all
+ 1017  git push
+ 1018  git add --all
+ 1019  git branch
+ 1020  git commit -m "Fix: all need correction"
+ 1021  git push
+ 1022  vi
+ 1023  cd Workspace/Practicum100/web_project_4/web_project_4/
+ 1024  git branch
+ 1025  cd ..
+ 1026  history > history
+ 1027  git status
+ 1028  cd web_project_4/
+ 1029  git status
+ 1030  git swich develop
+ 1031  git switch develop
+ 1032  git branch
+ 1033  git add --all
+ 1034  git push
+ 1035  git branch
+ 1036  git branch
+ 1037  git add --all
+ 1038  git commit -m "Fix: all review notes"
+ 1039  git push
+ 1040  git branch
+ 1041  git add --all
+ 1042  git commit -m "Save before merge"
+ 1043  git push
+ 1044  git checkout main
+ 1045  git branch
+ 1046  git add --all
+ 1047  git commit -m "Fix: All 'need corections' from 2 review"
+ 1048  git push
+ 1049  git checkout develop
+ 1050  git branch
+ 1051  git merge main
+ 1052  cd Workspace/Pra
+ 1053  cd Workspace/Practicum100/web_project_4/web_project_4/
+ 1054  git branch
+ 1055  git merge main
+ 1056  git add --all
+ 1057  git commit -m "Save changes"
+ 1058  git push
+ 1059  git merge main
+ 1060  git branch
+ 1061  cd Workspace/Practicum100/web_project_4/web_project_4/
+ 1062  git add --all
+ 1063  git commit -m "Fix: After review 3"
+ 1064  git push
+ 1065  git checkout main
+ 1066  git merge develop
+ 1067  git push
+ 1068  git branch
+ 1069  git add --all
+ 1070  git commit -m "Fix: font-size & div container"
+ 1071  git push
+ 1072  git add --all
+ 1073  git commit -m "Fix: font-size & div container. fix 1"
+ 1074  git push
+ 1075  sudo apt-get update
+ 1076  sudo apt-get --only-upgrade install google-chrome-stable
+ 1077  ls -al ~/.ssh
+ 1078  rm ./*
+ 1079  ls
+ 1080  sudo apt install testdisk
+ 1081  cd ~/.ssh
+ 1082  ls
+ 1083  ls -al
+ 1084  rm ~/*
+ 1085  rm ./*
+ 1086  rm .
+ 1087  rm
+ 1088  rm .
+ 1089  rm ./
+ 1090  rm ./*
+ 1091  rm ./.
+ 1092  ls .
+ 1093  ls -la
+ 1094  ssh-keygen -t rsa -b 4096 -C "shauliperets@gmail.com"
+ 1095  ls -la
+ 1096  eval $(ssh-agent -s)
+ 1097  gedit ./id_rsa.pub 
+ 1098  git log
+ 1099  cd ~/Workspace/Practicum100/web_project_4/web_project_4/
+ 1100  git log
+ 1101  git log --pretty
+ 1102  git log --pretty=oneline
+ 1103  git revert HEAD
+ 1104  cd ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1105  git add --all
+ 1106  git status
+ 1107  commit -m "Before start on project 5"
+ 1108  git commit -m "Before start on project 5"
+ 1109  git push
+ 1110  git add --all
+ 1111  git commit -m "Initial cards from array"
+ 1112  git push
+ 1113  cd ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1114  git add --all
+ 1115  git status
+ 1116  git add --all
+ 1117  git status
+ 1118  git commit -m "Adding new card from popup"
+ 1119  git push
+ 1120  git add --all
+ 1121  git commit -m "Add delete card button"
+ 1122  git push
+ 1123  git add --all
+ 1124  git commit -m "Add image popup"
+ 1125  git push
+ 1126  git add --all
+ 1127  git commit -m "Add fade to popups"
+ 1128  git push
+ 1129  git add --all
+ 1130  git commit -m "Cleaning code"
+ 1131  git push
+ 1132  git add --all
+ 1133  git commit -m "Change variable to const"
+ 1134  git push
+ 1135  git add --all
+ 1136  git commit -m "Fix: alt attribute"
+ 1137  git push
+ 1138  git add --all
+ 1139  git commit -m "Fix: css validation"
+ 1140  git push
+ 1141  git add --all
+ 1142  git commit -m "Fix: css validation 2"
+ 1143  git push
+ 1144  git add --all
+ 1145  git commit -m "Fix: delete add-pop"
+ 1146  git push
+ 1147  git add --all
+ 1148  git commit -m "Fix: notes in js fil "
+ 1149  git push
+ 1150  git add --all
+ 1151  git commit -m "Fix: notes in js file. Fix-2"
+ 1152  git push
+ 1153  git add --all
+ 1154  git commit -m "Fix: notes in js file. Fix-3"
+ 1155  git push
+ 1156  git add --all
+ 1157  git commit -m "Fix: create card code duplication"
+ 1158  git push
+ 1159  git add --all
+ 1160  git commit -m "Fix: create card code duplication. Fix 2"
+ 1161  git push
+ 1162  git add --all
+ 1163  git commit -m "Fix: create card code duplication. Fix 3"
+ 1164  git push
+ 1165  cd ./Workspace/Practicum100/
+ 1166  ls
+ 1167  mkdir spring-code-jam
+ 1168  cd spring-code-jam/
+ 1169  history > history.log
+ 1170  clone https://github.com/NatalieShamir/Practicum100-spring-code-jam.git
+ 1171  git clone https://github.com/NatalieShamir/Practicum100-spring-code-jam.git
+ 1172  git add --all
+ 1173  ls
+ 1174  cd Practicum100-spring-code-jam/
+ 1175  ls
+ 1176  git add --all
+ 1177  git commit -m "Add: cv section"
+ 1178  git push
+ 1179  ls
+ 1180  cd..
+ 1181  cd ..
+ 1182  ls
+ 1183  git clone https://github.com/ldennen/terry-goat-blog_spring-code-jam.git
+ 1184  ls
+ 1185  cd Practicum100-spring-code-jam/
+ 1186  ls
+ 1187  git add --all
+ 1188  git commit -m "cv section: add effects and js functionality"
+ 1189  git push
+ 1190  git pull
+ 1191  git add --all
+ 1192  git commit -m "cv section: add effects and js functionality"
+ 1193  git push
+ 1194  git pull
+ 1195  git add --all
+ 1196  git commit -m "cv section: add effects and js functionality. Fix 1"
+ 1197  git push
+ 1198  cd ..
+ 1199  ls
+ 1200  mkdir code-jam
+ 1201  cd code-jam/
+ 1202  git clone https://github.com/NatalieShamir/Practicum100-spring-code-jam.git
+ 1203  git branch
+ 1204  ls
+ 1205  cd Practicum100-spring-code-jam/
+ 1206  git branch
+ 1207  git branch add-responsivity
+ 1208  git branch
+ 1209  git switch add-responsivity
+ 1210  branch
+ 1211  git branch
+ 1212  git add --all
+ 1213  git status
+ 1214  git commit -m "Fix: media query 1065, 600"
+ 1215  git push
+ 1216  .projects__container-item-blog {
+ 1217  git push --set-upstream origin add-responsivity
+ 1218  git switch main
+ 1219  git branch
+ 1220  git merge add-responsivity
+ 1221  git status
+ 1222  git push
+ 1223  git branch
+ 1224  git pull
+ 1225  git branch
+ 1226  git add --all
+ 1227  git commit -m "Fix: media query 1065, 600. ver-2"
+ 1228  git pull
+ 1229  git push
+ 1230  git pull
+ 1231  cd ..
+ 1232  ls
+ 1233  cd Practicum100-spring-code-jam/
+ 1234  ls
+ 1235  cd ..
+ 1236  ls
+ 1237  cd terry-goat-blog_spring-code-jam/
+ 1238  ls
+ 1239  git pull
+ 1240  cd ..
+ 1241  ls
+ 1242  cd my-cv-spring-code-jam/
+ 1243  ls
+ 1244  git pull
+ 1245  git --help
+ 1246  git dir
+ 1247  git log
+ 1248  git revert 3f64363a428983b66c0df692af7ba6d28a20ad7a
+ 1249  git reflog
+ 1250  revert 92a7469
+ 1251  git revert 92a7469
+ 1252  git revert cc5e31f
+ 1253  cd ..
+ 1254  ls
+ 1255  cd terry-goat-blog_spring-code-jam/
+ 1256  git pull
+ 1257  git add --all
+ 1258  git commit -m "Add post smooth scale"
+ 1259  git push
+ 1260  cd ./Workspace/Practicum100/
+ 1261  ls
+ 1262  ./spring-code-jam/
+ 1263  cd ./spring-code-jam/
+ 1264  ls
+ 1265  cd Practicum100-spring-code-jam\(3\)
+ 1266  ls
+ 1267  cd Practicum100-spring-code-jam/
+ 1268  ls
+ 1269  rm -ra .git
+ 1270  rm -r .git
+ 1271  rm -fr .git
+ 1272  ls
+ 1273  git init
+ 1274  cd ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1275  git add --all
+ 1276  git commit "Bug: popup not centerd"
+ 1277  git commit -m "Bug: popup not centered"
+ 1278  git push
+ 1279  git add --all
+ 1280  git commit -m "Fix: all issues from review"
+ 1281  git push
+ 1282  cd ..
+ 1283  cd Shopping/git init
+ 1284  ls
+ 1285  cd ..
+ 1286  cd ShoppingCart
+ 1287  cd ..
+ 1288  ls -l
+ 1289  ls
+ 1290  cd ShoppingCartDesign/
+ 1291  git init
+ 1292  git add --all
+ 1293  git status
+ 1294  git add --all
+ 1295  git status
+ 1296  git -m "Create card"
+ 1297  git push
+ 1298  git histoty > history.log
+ 1299  histoty > history.log
+ 1300  history > history.log
+ 1301  add remote https://github.com/shauliperets/ShoppingCartDesign.git
+ 1302  git add remote https://github.com/shauliperets/ShoppingCartDesign.git
+ 1303  git remote add  https://github.com/shauliperets/ShoppingCartDesign.git
+ 1304  git push
+ 1305  git remote add origin https://github.com/shauliperets/ShoppingCartDesign.git
+ 1306  git push
+ 1307  git status
+ 1308  git push
+ 1309  git push --set-upstream origin master
+ 1310  git config
+ 1311  git config --list
+ 1312  git config --global user.name "shauliperets"
+ 1313  git config --global user.email "shauliperets@gmail.com"
+ 1314  git push
+ 1315  git push --set-upstream origin master
+ 1316  git push -u origin master
+ 1317  git push -u origin main
+ 1318  git branch
+ 1319  git status
+ 1320  git commit -m "Card design"
+ 1321  git push -u origin main
+ 1322  git push -u origin master
+ 1323  cd ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1324  git add --all
+ 1325  git commit -m "Before start on sprint 6 project"
+ 1326  git add --all
+ 1327  git commit -m "Before start on sprint 6 project"
+ 1328  git push
+ 1329  cd ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1330  ls
+ 1331  git add --all
+ 1332  git commit -m "Add validation"
+ 1333  git push
+ 1334  git add --all
+ 1335  git commit -m "Add validation. Fix-1"
+ 1336  git push
+ 1337  git add --all
+ 1338  git commit -m "Add button validation"
+ 1339  git push
+ 1340  git add --all
+ 1341  cd ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1342  git add --all
+ 1343  git commit -m "Bug: Popups not close on 'Enter'"
+ 1344  git push
+ 1345  git add --all
+ 1346  git commit -m "Bug: Popups not close on 'Enter'"
+ 1347  git push
+ 1348  ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1349  cd ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1350  git add --all
+ 1351  git commit -m "Close popup on Enter press"
+ 1352  git push
+ 1353  git add --all
+ 1354  git commit -m "Submit popup on Enter press"
+ 1355  git push
+ 1356  git add --all
+ 1357  git commit -m "Fix: link input"
+ 1358  git push
+ 1359  git add --all
+ 1360  git commit -m "Add: settings object"
+ 1361  git push
+ 1362  git add --all
+ 1363  git commit -m "Ready for first review"
+ 1364  git push
+ 1365  git add --all
+ 1366  git commit -m "Save after review"
+ 1367  git push
+ 1368  cd ./Workspace/Practicum100/web_project_4/web_project_4/
+ 1369  git add --all
+ 1370  git commit -m "Ready for second review"
+ 1371  git push
+ 1372  cd ./Workspace/Pra
+ 1373  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1374  git add --all
+ 1375  git commit -m "Add card object"
+ 1376  git push
+ 1377  git add --all
+ 1378  git commit -m "Bug: validate.js line 65"
+ 1379  git push
+ 1380  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1381  git add --all
+ 1382  git commit -m "Add: FormValidator class"
+ 1383  git push
+ 1384  git add --all
+ 1385  git commit -m "Ready for review 2"
+ 1386  git push
+ 1387  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1388  git add --all
+ 1389  git commit -m "Ready for review 2. Fix 1"
+ 1390  git push
+ 1391  git add --all
+ 1392  git commit -m "Ready for review 3"
+ 1393  git push
+ 1394  node -v
+ 1395  npm -v
+ 1396  npm init
+ 1397  npm install -g npm
+ 1398  sudo npm install -g npm
+ 1399  npm -v
+ 1400  npm install webpack --save-dev
+ 1401  npm i webpack-cli --save-dev
+ 1402  npm run test
+ 1403  npm run build
+ 1404  mkdir src
+ 1405  df
+ 1406  npm run build
+ 1407  npm run dev
+ 1408  npm run build
+ 1409  npm run dev
+ 1410  npm i @babel/core --save-dev
+ 1411  npm i @babel/preset-env --save-dev
+ 1412  npm i core-js --save
+ 1413  npm i bable-loader --save-dev
+ 1414  npm run build
+ 1415  npm i babel-loader --save-dev
+ 1416  npm run build
+ 1417  sudo apt update
+ 1418  sudo apt-get –only-upgrade install google-chrome-stable
+ 1419  sudo apt-get --only-upgrade install google-chrome-stable
+ 1420  npm install html-webpack-plugin --save-dev
+ 1421  npm i clean-webpack-plugin --save-dev
+ 1422  npm run build
+ 1423  npm install html-webpack-plugin --save-dev
+ 1424  npm run build
+ 1425  npm run dev
+ 1426  npm i css-loader --save-dev
+ 1427  npm i mini-css-extract-plugin --save-dev
+ 1428  npm run build
+ 1429  npm run dev
+ 1430  npm run build
+ 1431  npm run dev
+ 1432  npm i postcss-loader --save-dev
+ 1433  npm i autoprefixer --save-dev
+ 1434  npm i cssnano --save-dev
+ 1435  sudo apt-get remove google-chrome-stable
+ 1436  sudo apt update
+ 1437  sudo apt-get install google-chrome-stable
+ 1438  apt list --upgradable
+ 1439  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1440  git add --all
+ 1441  git commit -m "Add: class section"
+ 1442  git push
+ 1443  git add --all
+ 1444  git commit -m "Bug: overlay not close"
+ 1445  git push
+ 1446  git add --all
+ 1447  git commit -m "Add: popup work from object"
+ 1448  git push
+ 1449  npm run dev
+ 1450  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1451  git add --all
+ 1452  git commit -m "Bug: this_section null"
+ 1453  git push
+ 1454  git add --all
+ 1455  git commit -m "Before add webpack"
+ 1456  git push
+ 1457  node -v
+ 1458  npm init
+ 1459  npm i webpack --save-dev
+ 1460  npm i webpack-cli --save-dev
+ 1461  npm i webpack-dev-server --save-dev
+ 1462  npm i @babel/core --save-dev
+ 1463  npm i @babel/preset-env --save-dev
+ 1464  npm i core-js --save
+ 1465  npm i babel-loader --save-dev
+ 1466  npm run dev
+ 1467  npm run dev
+ 1468  npm install html-webpack-plugin --save-dev
+ 1469  npm run dev
+ 1470  npm i clean-webpack-plugin --save-dev
+ 1471  npm i css-loader --save-dev
+ 1472  npm i mini-css-extract-plugin --save-dev
+ 1473  npm run dev
+ 1474  npm run build
+ 1475  npm run dev
+ 1476  git add --all
+ 1477  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1478  git add --all
+ 1479  git commit -m "Bug: webpack"
+ 1480  git push
+ 1481  npm run dev
+ 1482  cd ./Wo
+ 1483  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1484  git add --all
+ 1485  git commit -m "Bug: like not works"
+ 1486  git push
+ 1487  npm run dev
+ 1488  npm run build
+ 1489  npm run dev
+ 1490  git add --all
+ 1491  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1492  git add --all
+ 1493  git commit -m "Bug: like not works 2"
+ 1494  git push
+ 1495  sudo apt-get purge google-chrome-stable
+ 1496  rm ~/.config/google-chrome/ -rf
+ 1497  npm run dev
+ 1498  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1499  git add --all
+ 1500  git commit -m "Bug: like not works 3"
+ 1501  git push
+ 1502  git add --all
+ 1503  git commit -m "Bug: like not works fixed"
+ 1504  git push
+ 1505  git add --all
+ 1506  git commit -m "Ready for first review"
+ 1507  git push
+ 1508  sudo apt-get purge google-chrome-stable
+ 1509  rm ~/.config/google-chrome/ -rf
+ 1510  cd ./Wor
+ 1511  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1512  git add --all
+ 1513  git commit -m "Ready for first review. Fix"
+ 1514  git push
+ 1515  git add --all
+ 1516  git commit -m "Ready for first review. Fix 2"
+ 1517  git push
+ 1518  git add --all
+ 1519  git commit -m "Fix index.js errors"
+ 1520  git push
+ 1521  git add --all
+ 1522  git commit -m "Fixing FormValidetor.js errors"
+ 1523  git push
+ 1524  npm run dev
+ 1525  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1526  git add --all
+ 1527  git commit -m "Fix Popup.js errors"
+ 1528  git push
+ 1529  npm run dev
+ 1530  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1531  git add --all
+ 1532  git commit -m "Redy for second review"
+ 1533  git commit --amend
+ 1534  git commit --amend -m "Ready for second review"
+ 1535  git push
+ 1536  git add --all
+ 1537  git commit -m "Ready for third review"
+ 1538  git push
+ 1539  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1540  git add --all
+ 1541  git commit -m "add: edit profile api"
+ 1542  git push
+ 1543  npm install gh-pages --save-dev
+ 1544  npm -v
+ 1545  npm run deploy
+ 1546  npm run dev
+ 1547  cd ./Workspace/Practicum/web_project_4/web_project_4/
+ 1548  git add --all
+ 1549  git commit -m "add: 4:Adding new card"
+ 1550  git push
+ 1551  git add --all
+ 1552  git commit -m "add: 8-add remove likes"
+ 1553  git push
+ 1554  git add --all
+ 1555  git commit -m "add: 9-change user avatar"
+ 1556  git push
+ 1557  git add --all
+ 1558  git commit -m "add: 10-change submit butten text"
+ 1559  git push
+ 1560  git add --all
+ 1561  git commit -m "Fix: but on delete"
+ 1562  git push
+ 1563  git add --all
+ 1564  git commit -m "Add: Create api class"
+ 1565  git push
+ 1566  cd ..
+ 1567  git clone https://github.com/yandex-praktikum/se_project_aroundtheus.git
+ 1568  cd se_project_aroundtheus/
+ 1569  ls
+ 1570  git status
+ 1571  git add --all
+ 1572  cd ..
+ 1573  git clone https://github.com/yandex-praktikum/se_project_aroundtheus.git
+ 1574  cd ./Workspace/Pra
+ 1575  cd ./Workspace/Practicum/
+ 1576  git clone https://github.com/yandex-praktikum/se_project_aroundtheus.git
+ 1577  cd se_project_aroundtheus/
+ 1578  ls
+ 1579  git add --all
+ 1580  git commit -m "Ready for review"
+ 1581  git push
+ 1582  git add --all
+ 1583  git push
+ 1584  cd ..
+ 1585  cd ~/Workspace/Practicum/
+ 1586  clone https://github.com/yandex-praktikum/se_project_aroundtheus.git
+ 1587  git clone https://github.com/yandex-praktikum/se_project_aroundtheus.git
+ 1588  git add --all
+ 1589  cd se_project_aroundtheus/
+ 1590  git add --all
+ 1591  git commit -m "Test upload"
+ 1592  git push
+ 1593  git config --list
+ 1594  git clone https://github.com/shauliperets/se_project_aroundtheus.git
+ 1595  ls
+ 1596  cd ..
+ 1597  cd ~/Workspace/Practicum/
+ 1598  git clone https://github.com/shauliperets/se_project_aroundtheus.git
+ 1599  git add --all
+ 1600  cd se_project_aroundtheus/
+ 1601  git add --all
+ 1602  git commit -m "Ready for review"
+ 1603  git push
+ 1604  git add --all
+ 1605  git commit -m "Ready for review"
+ 1606  git push
+ 1607  git add --all
+ 1608  git commit -m "Fix: all notes in index.js"
+ 1609  git push
+ 1610  git add --all
+ 1611  git commit -m "Fix: like counter in card.js"
+ 1612  git push
+ 1613  git add --all
+ 1614  git commit -m "Fix: in 3 note"
+ 1615  git push
+ 1616  npm dev
+ 1617  npm run dev
+ 1618  npm init
+ 1619  npm install
+ 1620  npm run dev
+ 1621  cd ./Workspace/Practicum/se_project_aroundtheus/
+ 1622  ls
+ 1623  git add --all
+ 1624  git commit -m "Ready for second review"
+ 1625  git push
+ 1626  git add --all
+ 1627  git commit -m "Ready for third review"
+ 1628  git push
+ 1629  git add --all
+ 1630  git commit -m "Ready for third review. Fix"
+ 1631  git push
+ 1632  ip r
+ 1633  ip route
+ 1634  route -n
+ 1635  sudo install net-tools
+ 1636  sudo apt install net-tools
+ 1637  route -n
+ 1638  sudo apt install net-tools
+ 1639  route -n
+ 1640  cd ..
+ 1641  ls
+ 1642  cd web_project_10
+ 1643  npx create-react-app calorie-zen
+ 1644  cd calorie-zen/
+ 1645  npm start
+ 1646  npx create-react-app
+ 1647  npx create-react-app .
+ 1648  git rm README.old.md 
+ 1649  rm README.old.md 
+ 1650  git add .
+ 1651  git status
+ 1652  git commit -m "Initialization"
+ 1653  git push -u origin
+ 1654  npm start
+ 1655  npm i react-router-dom@5
+ 1656  npm start
+ 1657  cd ./Workspace/Practicum/
+ 1658  ls
+ 1659  git clone https://github.com/shauliperets/around-react.git
+ 1660  cls
+ 1661  ls
+ 1662  cd around-react/
+ 1663  git add --all
+ 1664  git commit -m "Add: Popups"
+ 1665  git push
+ 1666  git add --all
+ 1667  git commit -m "Add: OnClose"
+ 1668  git push
+ 1669  git add --all
+ 1670  git commit -m "Add: API profile call"
+ 1671  git push
+ 1672  git add --all
+ 1673  git commit -m "Add: Likes works"
+ 1674  git push
+ 1675  git add --all
+ 1676  git commit -m "Bug: Submit refresh bug"
+ 1677  git push
+ 1678  git add --all
+ 1679  git commit -m "Delete card works"
+ 1680  git push
+ 1681  git add --all
+ 1682  git commit -m "Clean code"
+ 1683  git push
+ 1684  git add --all
+ 1685  git commit -m "Ready for review"
+ 1686  git push
+ 1687  cd ..
+ 1688  mkdir web_project_10
+ 1689  mkdir web_project_11
+ 1690  cd web_project_11
+ 1691  npx create-react-app emoji-critic
+ 1692  cd ./Workspace/Practicum/around-react/
+ 1693  git add --all
+ 1694  git commit -m "Ready for review 2"
+ 1695  git push
+ 1696  git add --all
+ 1697  git commit -m "Ready for review 3"
+ 1698  git push
+ 1699  npm start
+ 1700  npm install
+ 1701  npm start
+ 1702  cd ./Workspace/Practicum/
+ 1703  ls
+ 1704  cd around-react/
+ 1705  git add --all
+ 1706  git commit -m "All needs correcting in code"
+ 1707  git push
+ 1708  git add --all
+ 1709  git commit -m "All needs correcting"
+ 1710  git push
+ 1711  git add --all
+ 1712  git commit -m "Ready for review"
+ 1713  git push
+ 1714  cd ..
+ 1715  cd se_project_aroundtheus/
+ 1716  git add --all
+ 1717  git commit -m "Ready for second review"
+ 1718  git push
+ 1719  git clone https://github.com/shauliperets/se_project_react.git
+ 1720  cd ..
+ 1721  git clone https://github.com/shauliperets/se_project_react.git
+ 1722  cd se_project_react/
+ 1723  ls
+ 1724  git add --all
+ 1725  npm install
+ 1726  npm start
+ 1727  npm install
+ 1728  npm start
+ 1729  npm install
+ 1730  npm start
+ 1731  npm install
+ 1732  npm start
+ 1733  npm install
+ 1734  npm start
+ 1735  cd ./Workspace/Practicum/se_project_react/
+ 1736  ls
+ 1737  git add --all
+ 1738  git commit "Ready for second review"
+ 1739  git commit -m "Ready for second review"
+ 1740  git push
+ 1741  git add --all
+ 1742  git commit -m "Fix all need correcting"
+ 1743  git push
+ 1744  git add --all
+ 1745  git commit -m "Ready for review"
+ 1746  git push
+ 1747  cd ..
+ 1748  git clone https://github.com/shauliperets/around-react.git
+ 1749  git add --all
+ 1750  cd around-react
+ 1751  git add --all
+ 1752  git commit -m "S11: Ready for third review"
+ 1753  git push
+ 1754  git add --all
+ 1755  git commit -m "S11: Ready for third review"
+ 1756  git push
+ 1757  git add --all
+ 1758  git commit -m "S10: Ready for fourth review"
+ 1759  git push
+ 1760  git add --all
+ 1761  git commit -m "S10: Ready for fifth review"
+ 1762  git push
+ 1763  npm install
+ 1764  npm install -g npm
+ 1765  sudo npm install -g npm
+ 1766  npm start
+ 1767  npm install
+ 1768  npm start
+ 1769  git add --all
+ 1770  nmp start
+ 1771  npm start
+ 1772  cd ./Workspace/Practicum/around-react
+ 1773  git add --all
+ 1774  git commit -m "S11: section 1 project done"
+ 1775  git push
+ 1776  git add --all
+ 1777  git commit -m "S11: section 2 project done"
+ 1778  git push
+ 1779  git commit -m "S11: Component error"
+ 1780  git add --all
+ 1781  git commit -m "S11: Component error"
+ 1782  git push
+ 1783  xinput list | grep 'id='
+ 1784  xinput get-button-map 
+ 1785  git add --all
+ 1786  git commit -m "S11: section 4 project done"
+ 1787  git push
+ 1788  git add --all
+ 1789  git commit -m "S11: ready for first review"
+ 1790  git push
+ 1791  cd ..
+ 1792  cd around-react
+ 1793  git add --all
+ 1794  git commit -m "S11: ready for first review 2"
+ 1795  git add --all
+ 1796  git commit -m "S11: ready for first review 2"
+ 1797  git add --all
+ 1798  git commit -m "S11: ready for first review 2"
+ 1799  git push
+ 1800  git add --all
+ 1801  git commit -m "S11: ready for first review 3"
+ 1802  git push
+ 1803  node -v
+ 1804  nmp -v
+ 1805  npm -v
+ 1806  npm install
+ 1807  ng serve
+ 1808  ng new Tutorial
+ 1809  npm start
+ 1810  ng serve
+ 1811  ng g c Card
+ 1812  ng serve
+ 1813  cd ./Workspace/Practicum/around-react
+ 1814  git add --all
+ 1815  git commit -m "Ready for review 2"
+ 1816  git push
+ 1817  npm start
+ 1818  npm install
+ 1819  npm start
+ 1820  node index.js
+ 1821  node MATH.max(1,2,3)
+ 1822  node Math.max(1,2,3)
+ 1823  node Math.min(1,2,3)
+ 1824  node Math.min(1,2,3);
+ 1825  node
+ 1826  ng serve
+ 1827  npm start
+ 1828  npm insall
+ 1829  npm install
+ 1830  npm start
+ 1831  node js
+ 1832  node index.js
+ 1833  ng serve
+ 1834  npm install --save @fortawesome/fontawesome-free
+ 1835  ng serve
+ 1836  node index.js
+ 1837  PORT=3000 node index.js
+ 1838  node index.js
+ 1839  PORT=3000 node index.js
+ 1840  node index.js
+ 1841  ng serve
+ 1842  npm install
+ 1843  ng serve
+ 1844  ls
+ 1845  ng serve
+ 1846  history > history
+ 1847  npm start
+ 1848  git add --all
+ 1849  git commit -m "S11: Ready for third review"
+ 1850  git push
+ 1851  node index.js 
+ 1852  PORT=3000 node index.js 
+ 1853  node index.js 
+ 1854  PORT=4000 node index.js 
+ 1855  PORT=3000 node index.js 
+ 1856  PORT=3100 node index.js 
+ 1857  PORT=3300 node index.js 
+ 1858  PORT=3400 node index.js 
+ 1859  PORT=3500 node index.js 
+ 1860  PORT=3600 node index.js 
+ 1861  PORT=3700 node index.js 
+ 1862  ng serve
+ 1863  ng g s data
+ 1864  ng serve
+ 1865  ng generate module app-routing --flat --module=app
+ 1866  ng g c ShoppingCart
+ 1867  ng g c Store
+ 1868  ng serve
+ 1869  ng g c CardDetails
+ 1870  npm start
+ 1871  npm install
+ 1872  npm start
+ 1873  sudo snap install postman
+ 1874  node inspect counter.js
+ 1875  node counter.js
+ 1876  node inspect printSecretNSnakeInstructions.js 
+ 1877  traceroute yandex.com
+ 1878  sudo apt install traceroute
+ 1879  sudo dpkg --configure -a
+ 1880  sudo apt install traceroute
+ 1881  traceroute yandex.com
+ 1882  npm init -y
+ 1883  npm run test
+ 1884  npm install express
+ 1885  npm install nodemon -D
+ 1886  npm init
+ 1887  3000 node index.js
+ 1888  PORT=3000 node index.js
+ 1889  npm start
+ 1890  npm init
+ 1891  npm init -y
+ 1892  cd Express-2
+ 1893  npm init -y
+ 1894  node app.js
+ 1895  npm install
+ 1896  node app.js
+ 1897  npm init
+ 1898  node app.js
+ 1899  npm init -y
+ 1900  git add --all
+ 1901  git commit -m "Initial route"
+ 1902  git push
+ 1903  npm i eslint --save-dev
+ 1904  eslint-config-airbnb-base
+ 1905  npm run lint
+ 1906  npm install nodemon -D
+ 1907  npm run dev
+ 1908  npm install
+ 1909  npm run dev
+ 1910  npm install express
+ 1911  npm run dev
+ 1912  cd /home/shaul/Workspace/Practicum/se_project_express/routes/data/
+ 1913  cd /home/shaul/Workspace/Practicum/
+ 1914  cd /home/shaul/Workspace/Practicum/se_project_express
+ 1915  cd /home/shaul/Workspace/Practicum/se_project_express/routes/data/
+ 1916  ls
+ 1917  git add --all
+ 1918  git commit -m "Read file error"
+ 1919  git push
+ 1920  git add --all
+ 1921  git commit -m "Routes work for user id"
+ 1922  git push
+ 1923  git add --all
+ 1924  git commit -m "Routes ready for work"
+ 1925  git push
+ 1926  git add --all
+ 1927  git commit -m "Ready for review"
+ 1928  git push
+ 1929  npm install --save-dev eslint-config-airbnb-base 
+ 1930  npm install --save-dev eslint-plugin-import
+ 1931  git add --all
+ 1932  git commit -m "Fix errors from first review"
+ 1933  git push
+ 1934  git add --all
+ 1935  git commit -m "Ready for second review"
+ 1936  git push
+ 1937  git init
+ 1938  git status
+ 1939  git add --all
+ 1940  git commit -m "Counter on card"
+ 1941  git push
+ 1942  git remote add https://github.com/shauliperets
+ 1943  git remote add AngularShoppingCart https://github.com/shauliperets/AngularShoppingCart.git
+ 1944  git push
+ 1945  git remote -v
+ 1946  git push AngularShoppingCart
+ 1947  git push --set-upstream AngularShoppingCart master
+ 1948  history
+ 1949  cd ../..
+ 1950  history > his
+ 1951  git clone https://github.com/shauliperets/se_project_express.git
+ 1952  cd Practicum/
+ 1953  git clone https://github.com/shauliperets/se_project_express.git
+ 1954  cd client/
+ 1955  npm run start
+ 1956  npm install
+ 1957  npm run start
+ 1958  npx eslint ./
+ 1959  git add --all
+ 1960  git commit -m "Ready for third review"
+ 1961  git push
+ 1962  npx eslint .
+ 1963  git add --all
+ 1964  git commit -m "Fix: Ready for fourth review"
+ 1965  git push
+ 1966  npm run dev
+ 1967  history > history
+ 1968  npm init -y
+ 1969  node app.js
+ 1970  npm install
+ 1971  node app.js
+ 1972  npm install express
+ 1973  node app.js
+ 1974  npm install nodemon -D
+ 1975  nodemon app.js
+ 1976  npm run dev
+ 1977  wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+ 1978  sudo apt-get install gnupg
+ 1979  lsb_release -dc
+ 1980  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+ 1981  sudo apt-get update
+ 1982  sudo apt-get install -y mongodb-org
+ 1983  ps --no-headers -o comm 1
+ 1984  sudo systemctl start mongod
+ 1985  sudo systemctl status mongod
+ 1986  sudo systemctl enable mongod
+ 1987  npm i mongoose
+ 1988  mongod
+ 1989  mongoose -
+ 1990  mongod -v
+ 1991  npm run start
+ 1992  npm install
+ 1993  history > history.text
