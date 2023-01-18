@@ -4,7 +4,9 @@ const mongoose = require("mongoose");
 const cardsRouter = require("./routes/cards");
 const usersRouter = require("./routes/users");
 
-const constants = require("./constants/index");
+const constants = require("./constants/index"); //delete it
+
+const auth = require("./middleware/auth");
 
 const { PORT = 3000 } = process.env;
 
@@ -22,12 +24,12 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 
+app.use(auth);
+
 app.use("/users", usersRouter);
 app.use("/cards", cardsRouter);
 app.use((request, response) => {
-  response
-    .status(constants.errorStatus.e404)
-    .send({ message: constants.errorMessage.e404 });
+  response.status(constants.errorStatus.e404).send({ message: constants.errorMessage.e404 });
 });
 
 app.listen(PORT, () => {

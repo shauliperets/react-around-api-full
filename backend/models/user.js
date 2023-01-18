@@ -6,12 +6,15 @@ const userSchema = new mongoose.Schema({
     minlength: 2,
     maxlength: 30,
     required: true,
+    unique: true,
+    default: "Jacques Cousteau",
   },
   email: {
     type: String,
     minlength: 2,
     maxlength: 30,
     required: true,
+    default: "Explorer",
     validate: {
       validator(v) {
         const regex = /^[A-Za-z1-9]+@[A-Za-z1-9]+.[A-Za-z1-9]+$/;
@@ -34,6 +37,7 @@ const userSchema = new mongoose.Schema({
   avatar: {
     type: String,
     required: true,
+    default: "https://pictures.s3.yandex.net/resources/avatar_1604080799.jpg",
     validate: {
       validator(v) {
         return /(http|https):\/\/[\da-z.-]+\.[\/a-z]*/.test(v); // eslint-disable-line
@@ -42,5 +46,21 @@ const userSchema = new mongoose.Schema({
     },
   },
 });
+
+userSchema.statics.findUserByCredentials = function findUserByCredentials(email, password) {
+  return this.findOne({ email }).then((user) => {
+    if (!user) {
+      return Promise.reject(new Error("Incorrect email or password"));
+    }
+
+    return bcrypt.compare(password, user.password).then((matched) => {
+      if (!matched) {
+        return Promise.reject(new Error("Incorrect email or password"));
+      }
+
+      return user;
+    });
+  });
+};
 
 module.exports = mongoose.model("user", userSchema);
