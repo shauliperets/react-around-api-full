@@ -6,9 +6,7 @@ module.exports.getCards = (request, response) => {
   Card.find({})
     .then((cards) => response.send({ data: cards }))
     .catch((error) => {
-      response
-        .status(constants.errorStatus.e500)
-        .send({ message: constants.errorMessage.e500 });
+      response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
       console.log(error);
     });
 };
@@ -21,38 +19,32 @@ module.exports.createCard = (request, response) => {
     .then((card) => response.send({ data: card }))
     .catch((error) => {
       if (error.name === "ValidationError") {
-        response
-          .status(constants.errorStatus.e400)
-          .send({ message: constants.errorMessage.e400 });
+        response.status(constants.errorStatus.e400).send({ message: constants.errorMessage.e400 });
       } else {
-        response
-          .status(constants.errorStatus.e500)
-          .send({ message: constants.errorMessage.e500 });
+        response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
       }
     });
 };
 
 module.exports.deleteCard = (request, response) => {
-  const { cardId } = request.params;
+  const { cardId, user } = request.params;
 
   console.log("delete card. cardId => ", cardId);
 
+  //if(user._id != card.userId) return error
+
   Card.findByIdAndRemove({ _id: cardId })
     .orFail()
-    .then((card) => response.send({ data: card }))
+    .then((card) => {
+      response.send({ data: card });
+    })
     .catch((error) => {
       if (error.name === "CastError") {
-        response
-          .status(constants.errorStatus.e400)
-          .send({ message: constants.errorMessage.e400ID });
+        response.status(constants.errorStatus.e400).send({ message: constants.errorMessage.e400ID });
       } else if (error.name === "DocumentNotFoundError") {
-        response
-          .status(constants.errorStatus.e404)
-          .send({ message: constants.errorMessage.e404 });
+        response.status(constants.errorStatus.e404).send({ message: constants.errorMessage.e404 });
       } else {
-        response
-          .status(constants.errorStatus.e500)
-          .send({ message: constants.errorMessage.e500 });
+        response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
       }
     });
 };
@@ -67,17 +59,11 @@ module.exports.likeCard = (request, response) => {
     .then((card) => response.send({ data: card }))
     .catch((error) => {
       if (error.name === "CastError") {
-        response
-          .status(constants.errorStatus.e400)
-          .send({ message: constants.errorMessage.e400ID });
+        response.status(constants.errorStatus.e400).send({ message: constants.errorMessage.e400ID });
       } else if (error.name === "DocumentNotFoundError") {
-        response
-          .status(constants.errorStatus.e404)
-          .send({ message: constants.errorMessage.e404 });
+        response.status(constants.errorStatus.e404).send({ message: constants.errorMessage.e404 });
       } else {
-        response
-          .status(constants.errorStatus.e500)
-          .send({ message: constants.errorMessage.e500 });
+        response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
       }
     });
 };
@@ -92,17 +78,11 @@ module.exports.dislikeCard = (request, response) => {
     .then((card) => response.send({ data: card }))
     .catch((error) => {
       if (error.name === "CastError") {
-        response
-          .status(constants.errorStatus.e400)
-          .send({ message: constants.errorMessage.e400ID });
+        response.status(constants.errorStatus.e400).send({ message: constants.errorMessage.e400ID });
       } else if (error.name === "DocumentNotFoundError") {
-        response
-          .status(constants.errorStatus.e404)
-          .send({ message: constants.errorMessage.e404 });
+        response.status(constants.errorStatus.e404).send({ message: constants.errorMessage.e404 });
       } else {
-        response
-          .status(constants.errorStatus.e500)
-          .send({ message: constants.errorMessage.e500 });
+        response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
       }
     });
 };

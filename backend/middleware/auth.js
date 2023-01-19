@@ -5,7 +5,7 @@ module.exports = (request, response, next) => {
   const { authorization } = request.headers;
 
   if (!authorization || !authorization.startsWith("Bearer ")) {
-    return response.status(401).send({ message: "Authorization Required" });
+    return response.status(403).send({ message: "Authorization Required" });
   }
 
   const token = authorization.replace("Bearer ", "");
@@ -14,10 +14,10 @@ module.exports = (request, response, next) => {
   try {
     payload = jwt.verify(token, process.env.NODE_ENV);
   } catch (error) {
-    return response.status(401).send({ message: "Authorization Required" });
+    return response.status(403).send({ message: "Authorization Required" });
   }
 
-  request.user = payload; // assigning the payload to the request object
+  request.user = payload;
 
-  next(); // sending the request to the next middleware
+  next();
 };
