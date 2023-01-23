@@ -29,7 +29,7 @@ module.exports.createCard = (request, response) => {
 module.exports.deleteCard = (request, response) => {
   const { cardId, user } = request.params;
 
-  console.log("delete card. cardId => ", cardId);
+  //console.log("delete card. cardId => ", cardId);
 
   //if(user._id != card.userId) return error
 

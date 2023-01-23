@@ -1,0 +1,1000 @@
+  989  git commit -m "S11: Ready for third review"
+  990  git push
+  991  git add --all
+  992  git commit -m "S11: Ready for third review"
+  993  git push
+  994  git add --all
+  995  git commit -m "S10: Ready for fourth review"
+  996  git push
+  997  git add --all
+  998  git commit -m "S10: Ready for fifth review"
+  999  git push
+ 1000  npm install
+ 1001  npm install -g npm
+ 1002  sudo npm install -g npm
+ 1003  npm start
+ 1004  npm install
+ 1005  npm start
+ 1006  git add --all
+ 1007  nmp start
+ 1008  npm start
+ 1009  cd ./Workspace/Practicum/around-react
+ 1010  git add --all
+ 1011  git commit -m "S11: section 1 project done"
+ 1012  git push
+ 1013  git add --all
+ 1014  git commit -m "S11: section 2 project done"
+ 1015  git push
+ 1016  git commit -m "S11: Component error"
+ 1017  git add --all
+ 1018  git commit -m "S11: Component error"
+ 1019  git push
+ 1020  xinput list | grep 'id='
+ 1021  xinput get-button-map 
+ 1022  git add --all
+ 1023  git commit -m "S11: section 4 project done"
+ 1024  git push
+ 1025  git add --all
+ 1026  git commit -m "S11: ready for first review"
+ 1027  git push
+ 1028  cd ..
+ 1029  cd around-react
+ 1030  git add --all
+ 1031  git commit -m "S11: ready for first review 2"
+ 1032  git add --all
+ 1033  git commit -m "S11: ready for first review 2"
+ 1034  git add --all
+ 1035  git commit -m "S11: ready for first review 2"
+ 1036  git push
+ 1037  git add --all
+ 1038  git commit -m "S11: ready for first review 3"
+ 1039  git push
+ 1040  node -v
+ 1041  nmp -v
+ 1042  npm -v
+ 1043  npm install
+ 1044  ng serve
+ 1045  ng new Tutorial
+ 1046  npm start
+ 1047  ng serve
+ 1048  ng g c Card
+ 1049  ng serve
+ 1050  cd ./Workspace/Practicum/around-react
+ 1051  git add --all
+ 1052  git commit -m "Ready for review 2"
+ 1053  git push
+ 1054  npm start
+ 1055  npm install
+ 1056  npm start
+ 1057  node index.js
+ 1058  node MATH.max(1,2,3)
+ 1059  node Math.max(1,2,3)
+ 1060  node Math.min(1,2,3)
+ 1061  node Math.min(1,2,3);
+ 1062  node
+ 1063  ng serve
+ 1064  npm start
+ 1065  npm insall
+ 1066  npm install
+ 1067  npm start
+ 1068  node js
+ 1069  node index.js
+ 1070  ng serve
+ 1071  npm install --save @fortawesome/fontawesome-free
+ 1072  ng serve
+ 1073  node index.js
+ 1074  PORT=3000 node index.js
+ 1075  node index.js
+ 1076  PORT=3000 node index.js
+ 1077  node index.js
+ 1078  ng serve
+ 1079  npm install
+ 1080  ng serve
+ 1081  ls
+ 1082  ng serve
+ 1083  history > history
+ 1084  npm start
+ 1085  git add --all
+ 1086  git commit -m "S11: Ready for third review"
+ 1087  git push
+ 1088  node index.js 
+ 1089  PORT=3000 node index.js 
+ 1090  node index.js 
+ 1091  PORT=4000 node index.js 
+ 1092  PORT=3000 node index.js 
+ 1093  PORT=3100 node index.js 
+ 1094  PORT=3300 node index.js 
+ 1095  PORT=3400 node index.js 
+ 1096  PORT=3500 node index.js 
+ 1097  PORT=3600 node index.js 
+ 1098  PORT=3700 node index.js 
+ 1099  ng serve
+ 1100  ng g s data
+ 1101  ng serve
+ 1102  ng generate module app-routing --flat --module=app
+ 1103  ng g c ShoppingCart
+ 1104  ng g c Store
+ 1105  ng serve
+ 1106  ng g c CardDetails
+ 1107  npm start
+ 1108  npm install
+ 1109  npm start
+ 1110  sudo snap install postman
+ 1111  node inspect counter.js
+ 1112  node counter.js
+ 1113  node inspect printSecretNSnakeInstructions.js 
+ 1114  traceroute yandex.com
+ 1115  sudo apt install traceroute
+ 1116  sudo dpkg --configure -a
+ 1117  sudo apt install traceroute
+ 1118  traceroute yandex.com
+ 1119  npm init -y
+ 1120  npm run test
+ 1121  npm install express
+ 1122  npm install nodemon -D
+ 1123  npm init
+ 1124  3000 node index.js
+ 1125  PORT=3000 node index.js
+ 1126  npm start
+ 1127  npm init
+ 1128  npm init -y
+ 1129  cd Express-2
+ 1130  npm init -y
+ 1131  node app.js
+ 1132  npm install
+ 1133  node app.js
+ 1134  npm init
+ 1135  node app.js
+ 1136  npm init -y
+ 1137  git add --all
+ 1138  git commit -m "Initial route"
+ 1139  git push
+ 1140  npm i eslint --save-dev
+ 1141  eslint-config-airbnb-base
+ 1142  npm run lint
+ 1143  npm install nodemon -D
+ 1144  npm run dev
+ 1145  npm install
+ 1146  npm run dev
+ 1147  npm install express
+ 1148  npm run dev
+ 1149  cd /home/shaul/Workspace/Practicum/se_project_express/routes/data/
+ 1150  cd /home/shaul/Workspace/Practicum/
+ 1151  cd /home/shaul/Workspace/Practicum/se_project_express
+ 1152  cd /home/shaul/Workspace/Practicum/se_project_express/routes/data/
+ 1153  ls
+ 1154  git add --all
+ 1155  git commit -m "Read file error"
+ 1156  git push
+ 1157  git add --all
+ 1158  git commit -m "Routes work for user id"
+ 1159  git push
+ 1160  git add --all
+ 1161  git commit -m "Routes ready for work"
+ 1162  git push
+ 1163  git add --all
+ 1164  git commit -m "Ready for review"
+ 1165  git push
+ 1166  npm install --save-dev eslint-config-airbnb-base 
+ 1167  npm install --save-dev eslint-plugin-import
+ 1168  git add --all
+ 1169  git commit -m "Fix errors from first review"
+ 1170  git push
+ 1171  git add --all
+ 1172  git commit -m "Ready for second review"
+ 1173  git push
+ 1174  git init
+ 1175  git status
+ 1176  git add --all
+ 1177  git commit -m "Counter on card"
+ 1178  git push
+ 1179  git remote add https://github.com/shauliperets
+ 1180  git remote add AngularShoppingCart https://github.com/shauliperets/AngularShoppingCart.git
+ 1181  git push
+ 1182  git remote -v
+ 1183  git push AngularShoppingCart
+ 1184  git push --set-upstream AngularShoppingCart master
+ 1185  history
+ 1186  cd ../..
+ 1187  history > his
+ 1188  git clone https://github.com/shauliperets/se_project_express.git
+ 1189  cd Practicum/
+ 1190  git clone https://github.com/shauliperets/se_project_express.git
+ 1191  cd client/
+ 1192  npm run start
+ 1193  npm install
+ 1194  npm run start
+ 1195  npx eslint ./
+ 1196  git add --all
+ 1197  git commit -m "Ready for third review"
+ 1198  git push
+ 1199  npx eslint .
+ 1200  git add --all
+ 1201  git commit -m "Fix: Ready for fourth review"
+ 1202  git push
+ 1203  npm run dev
+ 1204  history > history
+ 1205  npm init -y
+ 1206  node app.js
+ 1207  npm install
+ 1208  node app.js
+ 1209  npm install express
+ 1210  node app.js
+ 1211  npm install nodemon -D
+ 1212  nodemon app.js
+ 1213  npm run dev
+ 1214  wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+ 1215  sudo apt-get install gnupg
+ 1216  lsb_release -dc
+ 1217  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+ 1218  sudo apt-get update
+ 1219  sudo apt-get install -y mongodb-org
+ 1220  ps --no-headers -o comm 1
+ 1221  sudo systemctl start mongod
+ 1222  sudo systemctl status mongod
+ 1223  sudo systemctl enable mongod
+ 1224  npm i mongoose
+ 1225  mongod
+ 1226  mongoose -
+ 1227  mongod -v
+ 1228  npm run start
+ 1229  npm install
+ 1230  history > history.text
+ 1231  npm run start
+ 1232  npm start
+ 1233  npm i mongoose
+ 1234  npm start
+ 1235  history > history
+ 1236  npm init -y
+ 1237  npm install express
+ 1238  nmpm run dev
+ 1239  npm run dev
+ 1240  npm i nodemon -D
+ 1241  npm run dev
+ 1242  npm install mongoose
+ 1243  npm run dev
+ 1244  npm start
+ 1245  history > history
+ 1246  npx eslint .
+ 1247  npx eslint . 
+ 1248  npx eslint . --fix
+ 1249  npx eslint . 
+ 1250  git add --all
+ 1251  git commit -m "Fix: eslint errors"
+ 1252  git push
+ 1253  git add --all
+ 1254  git commit -m "Add: user and card schema"
+ 1255  git push
+ 1256  git add --all
+ 1257  git commit -m "section 7: delete data folder"
+ 1258  git push
+ 1259  git add --all
+ 1260  git commit -m "9: Add other routes"
+ 1261  git push
+ 1262  git add --all
+ 1263  git commit -m "Fix: All need correctoins"
+ 1264  git push
+ 1265  npm run dev
+ 1266  npm run start
+ 1267  npm run dev
+ 1268  git add --all
+ 1269  git commit -m "Fix: All need corrections"
+ 1270  git push
+ 1271  npm run dev
+ 1272  git add --all
+ 1273  git commit -m "Fix: All need correction from 3 review"
+ 1274  git push
+ 1275  sqlcmd -S localhost -U SA -P 'Ng9dozv0'
+ 1276  sqlcmd 
+ 1277  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 1278  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2022.list)"
+ 1279  sudo apt-get update
+ 1280  sudo apt-get install -y mssql-server
+ 1281  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 1282  curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
+ 1283  sudo apt-get update
+ 1284  sudo apt-get install mssql-tools unixodbc-dev
+ 1285  sudo apt-get update
+ 1286  sudo apt-get install mssql-tools
+ 1287  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+ 1288  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+ 1289  sqlcmd -S localhost -U SA -P 'Ng9dozv0'
+ 1290  sqlcmd 
+ 1291  sudo apt-get install mssql-tools unixodbc-dev
+ 1292  sudo apt-get install mssql-tools
+ 1293  sqlcmd -S localhost -U SA -P ''
+ 1294  mssql-conf setup
+ 1295  sudo /opt/mssql/bin/mssql-conf setup
+ 1296  sqlcmd -S localhost -U SA -P 'Ng9dozv0'
+ 1297  sudo /opt/mssql/bin/mssql-conf setup
+ 1298  /var/opt/mssql/log
+ 1299  sudo /var/opt/mssql/log
+ 1300  sudo /opt/mssql/bin/mssql-conf setup
+ 1301  systemctl status mssql-server --no-pager
+ 1302  sudo systemctl status mssql-server
+ 1303  cd /var/opt/mssql/data 
+ 1304  sudo cd /var/opt/mssql/data 
+ 1305  cd /var
+ 1306  cd /opt
+ 1307  cd mssql
+ 1308  ls
+ 1309  ls -lsrt
+ 1310  sudo apt-get remove mssql-sever
+ 1311  sudo system status mssql-server
+ 1312  system status mssql-server
+ 1313  sudo rm -rf /var/opt/mssql
+ 1314  ls
+ 1315  cd /ver
+ 1316  cd /var
+ 1317  cdopt
+ 1318  cd opt
+ 1319  cd mssql
+ 1320  ls
+ 1321  cd /
+ 1322  ls
+ 1323  cd /home/
+ 1324  ls
+ 1325  cd shaul/
+ 1326  ls
+ 1327  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 1328  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2022.list)"
+ 1329  sudo apt-get update
+ 1330  sudo apt-get install -y mssql-server
+ 1331  mssql-conf setup
+ 1332  sudo /opt/mssql/bin/mssql-conf setup
+ 1333  sqlcmd -S localhost -U SA -P 'Ng9dozv0'
+ 1334  mkdir Backend
+ 1335  donnet new mvc
+ 1336  dotnet new mvc
+ 1337  ls
+ 1338  mkdir Backend
+ 1339  ls
+ 1340  cd /home/shaul/Workspace/C-Sharp/
+ 1341  mkdir Backend
+ 1342  cd Backend/
+ 1343  dotnet new mvc
+ 1344  cd /home/shaul/Workspace/C-Sharp/
+ 1345  cd Ba
+ 1346  ls
+ 1347  mkdir backend
+ 1348  cd backend/
+ 1349  dotnet new webapi -o Backend
+ 1350  cd..
+ 1351  cd ..
+ 1352  mkdir Backend
+ 1353  cd backend/
+ 1354  ls
+ 1355  cd /home/shaul/Workspace/C-Sharp/
+ 1356  ls
+ 1357  mkdir Backend
+ 1358  cd Backend/
+ 1359  dotnet new webapi -o Backend
+ 1360  cd ..
+ 1361  ls
+ 1362  mkdir Backend
+ 1363  dotnet new webapi -o Backend
+ 1364  cd Backend/
+ 1365  ls
+ 1366  dotnet add package Microsoft.EntityFrameworkCore.InMemory
+ 1367  wget https://packages.microsoft.com/config/ubuntu/22.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+ 1368  sudo dpkg -i packages-microsoft-prod.deb
+ 1369  rm packages-microsoft-prod.deb
+ 1370  sudo apt-get update && sudo apt-get install -y dotnet-sdk-7.0
+ 1371  dotnet run
+ 1372  dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design -v 7.0.0-*
+ 1373  dotnet add package Microsoft.EntityFrameworkCore.Design -v 7.0.0-*
+ 1374  dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 7.0.0-*
+ 1375  dotnet tool uninstall -g dotnet-aspnet-codegenerator
+ 1376  dotnet tool install -g dotnet-aspnet-codegenerator
+ 1377  dotnet build
+ 1378  dotnet run
+ 1379  dotnet ef migrations add CreateDatabase
+ 1380  dotnet add package Microsoft.EntityFrameworkCore.Sqlserver
+ 1381  clear
+ 1382  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+ 1383  donnet new webapi -o Backend2
+ 1384  dotnet new webapi -o Backend2
+ 1385  cd ..
+ 1386  dotnet new webapi -o Backend2
+ 1387  dotnet new webapi -o Backend
+ 1388  kinit
+ 1389  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+ 1390  cd Backend
+ 1391  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+ 1392  dotnet ef migrations add CreateDatabase
+ 1393  dotnet add package Microsoft.EntityFrameworkCore.Tools
+ 1394  dotnet ef migrations add CreateDatabase
+ 1395  dotnet tool install --global dotnet-ef
+ 1396  dotnet ef migrations add CreateDatabase
+ 1397  dotnet build
+ 1398  sqlcmd
+ 1399  sqlcmd -S localhost -U SA -P 'Ng9dozv0'
+ 1400  dotnet build
+ 1401  dotnet ef migrations add CreateDatabase
+ 1402  sqlcmd -S localhost -U SA -P 'Ng9dozv0'
+ 1403  dotnet ef migrations update DataBaseName
+ 1404  dotnet ef database update
+ 1405  dotnet ef migrations add CreateDatabase
+ 1406  sqlcmd -S localhost -U SA -P 'Ng9dozv0'
+ 1407  cd /home/shaul/Workspace/C-Sharp/Backend/
+ 1408  code -r ../Backend/
+ 1409  cd /home/shaul/Desktop/temp/
+ 1410  ls
+ 1411  sudo dpkg -i ./azuredatastudio-linux-1.40.1.deb
+ 1412  dotnet ef migrations add CreateDatabase
+ 1413  dotnet run
+ 1414  dotnet build
+ 1415  dotnet run
+ 1416  dotnet -v
+ 1417  dotnet -version
+ 1418  dotnet --version
+ 1419  dotnet build
+ 1420  dotnet add package Microsoft.EntityFrameworkCore.InMemory
+ 1421  dotnet run
+ 1422  dotnet ef database update
+ 1423  dotnet ef migrations add CreateDatabase
+ 1424  dotnet run
+ 1425  dotnet ef migrations remove
+ 1426  dotnet ef migrations add CreateDatabase
+ 1427  dotnet run
+ 1428  dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+ 1429  dotnet run
+ 1430  dotnet add package Microsoft.EntityFrameworkCore
+ 1431  dotnet run
+ 1432  dotnet build
+ 1433  dotnet run
+ 1434  dotnet ef migrations add CreateDatabase
+ 1435  dotnet build
+ 1436  dotnet run
+ 1437  ng serve
+ 1438  npm install
+ 1439  ng serve
+ 1440  cd Backend/
+ 1441  dotnet run
+ 1442  git init
+ 1443  git add --all
+ 1444  git commit -m "Backend return result"
+ 1445  git remote add origin https://github.com/shauliperets/AngularCsharp.git
+ 1446  git push -u origin master
+ 1447  ng new Frontend
+ 1448  history
+ 1449  git add --all
+ 1450  git commit -m "Update git commands"
+ 1451  git push
+ 1452  ng g c Products
+ 1453  cd ./Frontend/
+ 1454  ng g c Products
+ 1455  ng serve
+ 1456  git add --all
+ 1457  git commit -m "Call Backend from Angular"
+ 1458  git push
+ 1459  cd Frontend/
+ 1460  ng serve
+ 1461  dotnet run
+ 1462  cd Backend/
+ 1463  dotnet run
+ 1464  npm install
+ 1465  npm install -g npm
+ 1466  sudo npm install -g npm
+ 1467  npm -v
+ 1468  npm run start
+ 1469  npm install react-router-dom
+ 1470  npm i react-router-dom@5
+ 1471  npm install
+ 1472  npm start
+ 1473  npm -v
+ 1474  nmp audit
+ 1475  npm audit
+ 1476  npm start
+ 1477  npm start
+ 1478  cd ./Workspace/Practicum/
+ 1479  git clone https://github.com/shauliperets/around-react-my-auth.git
+ 1480  git add --all
+ 1481  cd around-react-my-auth/
+ 1482  git add --all
+ 1483  git commit "Tooltip do not display correctly"
+ 1484  git commit m "Tooltip do not display correctly"
+ 1485  git commit -m "Tooltip do not display correctly"
+ 1486  git push
+ 1487  cd ./Workspace/Practicum/
+ 1488  git clone https://github.com/shauliperets/react-around-auth.git
+ 1489  npm run deploy
+ 1490  npm run start
+ 1491  git add --all
+ 1492  git commit -m "Toolkit problem"
+ 1493  git push
+ 1494  git deploy
+ 1495  npm deploy
+ 1496  npm run deploy
+ 1497  npm start
+ 1498  git add --all
+ 1499  git commit -m "Add: Login and register"
+ 1500  git push
+ 1501  git add --all
+ 1502  git commit -m "S15: Ready for revirew"
+ 1503  git push
+ 1504  cd ./Workspace/Practicum/Platform/
+ 1505  git clone https://github.com/shauliperets/Practicum.git
+ 1506  ls
+ 1507  cd Pra
+ 1508  cd Practicum/
+ 1509  ls
+ 1510  cd ..
+ 1511  cd Platform
+ 1512  ls
+ 1513  git add --all
+ 1514  git commit -m "Save: 21-07-2022"
+ 1515  git push
+ 1516  node -e "console.log(require('crypto').randomBytes(32).toString('hex'));"
+ 1517  cd ls
+ 1518  cd ..
+ 1519  cd Platform/
+ 1520  ls
+ 1521  cd sprint-15
+ 1522  cd Sprint-15
+ 1523  ls
+ 1524  cd ..
+ 1525  ls
+ 1526  git add --all
+ 1527  cd commit -m "Save: 21-12-2022"
+ 1528  git commit -m "Save: 21-12-2022"
+ 1529  git push
+ 1530  npm install
+ 1531  cd task-isDivisibleByThree/
+ 1532  npm install
+ 1533  cd task-isDivisibleByThree/
+ 1534  ls
+ 1535  npm install
+ 1536  npm run test
+ 1537  npm start
+ 1538  history > commands
+ 1539  npm install nodemon -D
+ 1540  npm run start
+ 1541  npm install --save-dev jest
+ 1542  npm run start
+ 1543  npm install
+ 1544  npm run start
+ 1545  npm init
+ 1546  nmp start
+ 1547  npm start
+ 1548  cd ..
+ 1549  cd task-TestingHttpRequests/
+ 1550  npm install
+ 1551  npm test
+ 1552  npm run
+ 1553  npm start
+ 1554  npm install
+ 1555  npm start
+ 1556  git add --all
+ 1557  git commit -m "Fix: All needs correcting"
+ 1558  git push
+ 1559  cd ./Workspace/Practicum/Platform/
+ 1560  git add --all
+ 1561  git commit -m "Save: 25-12-2022"
+ 1562  git push
+ 1563  ls -al ~/.ssh
+ 1564  cat ~/.ssh/id_rsa.pub
+ 1565  ssh-add ~/.ssh/id_rsa.pub
+ 1566  ssh shauliperets02@34.125.143.5
+ 1567  ssh-add ~/.ssh/id_rsa.pub
+ 1568  ssh shauliperets02@34.125.143.5
+ 1569  echo $SHELL
+ 1570  ssh-keygen -t ed25519 -C "shauliperets02@gmail.com"
+ 1571  ssh-add ~/.ssh/id_rsa.pub
+ 1572  cat ~/.ssh/id_rsa.pub
+ 1573  ls -al ~/.ssh
+ 1574  cat ~/.ssh/id_ed25519.pub
+ 1575  ssh-add ~/.ssh/id_ed25519.pub
+ 1576  ssh shauliperets02@34.125.2.54
+ 1577  history
+ 1578  ssh-add ~/.ssh/id_ed25519.pub
+ 1579  ssh shauliperets02@34.125.2.54
+ 1580  ssh-add ~/.ssh/id_ed25519.pub
+ 1581  ssh shauliperets02@34.125.2.54
+ 1582  node -v
+ 1583  ssh-add ~/.ssh/id_ed25519.pub
+ 1584  ssh shauliperets02@34.125.2.54
+ 1585  ssh-add ~/.ssh/id_ed25519.pub
+ 1586  ssh shauliperets02@34.125.2.54
+ 1587  ssh-add ~/.ssh/id_ed25519.pub
+ 1588  ssh shauliperets02@34.125.2.54
+ 1589  ssh-add ~/.ssh/id_ed25519.pub
+ 1590  ssh shauliperets02@34.125.2.54
+ 1591  ssh-add ~/.ssh/id_ed25519.pub
+ 1592  ssh shauliperets02@34.125.2.54
+ 1593  ssh-add ~/.ssh/id_ed25519.pub
+ 1594  ssh shauliperets02@34.125.2.54
+ 1595  ssh-add ~/.ssh/id_ed25519.pub
+ 1596  ssh shauliperets02@34.125.2.54
+ 1597  ssh-add ~/.ssh/id_ed25519.pub
+ 1598  ssh shauliperets02@34.125.2.54
+ 1599  cd ./Workspace/Pra
+ 1600  cd ./Workspace/Practicum/
+ 1601  ls
+ 1602  cd react-around-auth/
+ 1603  ls
+ 1604  ssh-add ~/.ssh/id_ed25519.pub
+ 1605  ssh shauliperets02@34.125.2.54
+ 1606  ls
+ 1607  npm build
+ 1608  npm run build
+ 1609  ls
+ 1610  npm install
+ 1611  npm run build
+ 1612  ssh-add ~/.ssh/id_ed25519
+ 1613  scp -r -i ~/.ssh/id_ed25519 .build/* shauliperets02@34.125.2.54:/home/shauliperets02/Frontend
+ 1614  ssh-add ~/.ssh/id_ed25519
+ 1615  ssh shauliperets02@34.125.2.54
+ 1616  ssh-add ~/.ssh/id_ed25519
+ 1617  ssh shauliperets02@34.125.2.54
+ 1618  cd ..
+ 1619  cd Platform/
+ 1620  git add --all
+ 1621  git commit -m "Save: 29-12-2022"
+ 1622  git push
+ 1623  cd ./Workspace/Practicum/
+ 1624  ls
+ 1625  cd Platform/
+ 1626  ls
+ 1627  git add --all
+ 1628  git commit -m "Save: 29-12-2022"
+ 1629  git push
+ 1630  cd ./Workspace/Practicum/Platform/
+ 1631  git add --all
+ 1632  git commit -m "Save: 30-12-2022"
+ 1633  git push
+ 1634  cd backend/
+ 1635  npm install validator
+ 1636  cd ..
+ 1637  git init
+ 1638  git add --all
+ 1639  git status
+ 1640  git add --all
+ 1641  git status
+ 1642  npm install
+ 1643  cd backend/
+ 1644  npm install
+ 1645  cd ../frontend/
+ 1646  npm install
+ 1647  cd ..
+ 1648  git add --all
+ 1649  git status
+ 1650  git push
+ 1651  git branch -M main
+ 1652  git remote add origin https://github.com/shauliperets/react-around-api-full.git
+ 1653  it push -u origin main
+ 1654  git push -u origin main
+ 1655  git push -u origin
+ 1656  git push --set-upstream origin master
+ 1657  git push --set-upstream origin
+ 1658  git push --set-upstream origin master
+ 1659  cd .. & git clone https://github.com/shauliperets/react-around-api-full.git
+ 1660  cd ..
+ 1661  git clone https://github.com/shauliperets/react-around-api-full.git
+ 1662  cd ./Workspace/Practicum/
+ 1663  git clone https://github.com/shauliperets/react-around-api-full.git
+ 1664  git cd react-around-around-api
+ 1665  cd react-around-around-api
+ 1666  cd react-around-api-full
+ 1667  git add --all
+ 1668  git status
+ 1669  git commit -m "1.1"
+ 1670  git push
+ 1671  npm start
+ 1672  npm install
+ 1673  cd client/
+ 1674  ls
+ 1675  npm start
+ 1676  git status
+ 1677  cd client/
+ 1678  git status
+ 1679  cd ./Workspace/
+ 1680  ls
+ 1681  cd Projects/
+ 1682  ls
+ 1683  git clone https://github.com/shauliperets/MovieMaker.git
+ 1684  ls
+ 1685  cd MovieMakerProject/MovieMaker/
+ 1686  git status
+ 1687  git add --all
+ 1688  git status
+ 1689  git add --all
+ 1690  git status
+ 1691  ssh-add ~/.ssh/id_ed25519
+ 1692  touch index.html
+ 1693  history
+ 1694  cd ./Workspace/Projects/MovieMakerProject/
+ 1695  ls
+ 1696  git clone https://github.com/shauliperets/MovieMakerClient.git
+ 1697  git add --all
+ 1698  cd MovieMakerClient/
+ 1699  git add --all
+ 1700  git commit -m "Add: product name"
+ 1701  git push
+ 1702  git add --all
+ 1703  git commit -m "Add: static folder"
+ 1704  git push
+ 1705  npm install gh-pages --save-dev
+ 1706  git add --all
+ 1707  git commit -m "Add: Select color set display in app"
+ 1708  git push
+ 1709  git add --all
+ 1710  git commit -m "Add: Upload logo"
+ 1711  git push
+ 1712  git add --all
+ 1713  git commit -m "Add: Upload logo fix for first load"
+ 1714  git push
+ 1715  npm run build
+ 1716  ls
+ 1717  cd client/
+ 1718  npm run build
+ 1719  cd build/
+ 1720  ls
+ 1721  ssh-add ~/.ssh/id_ed25519
+ 1722  git init
+ 1723  git status
+ 1724  git reset
+ 1725  git status
+ 1726  git add --all
+ 1727  git commit -m "Add: Popup color set"
+ 1728  git push
+ 1729  cd client/
+ 1730  npm start
+ 1731  {   "name": "client",;   "version": "0.1.0",;   "homepage": "https://gitname.github.io/react-gh-pages",;   "private": true,;   "dependencies": {;     "@testing-library/jest-dom": "^5.14.1",;     "@testing-library/react": "^11.2.7",;     "@testing-library/user-event": "^12.8.3",;     "cra-template": "^1.1.2",;     "react": "^17.0.2",;     "react-dom": "^17.0.2",;     "react-scripts": "^4.0.3",;     "web-vitals": "^1.1.2";   },;   "scripts": {;     "predeploy": "npm run build",;     "deploy": "gh-pages -d build",;     "start": "react-scripts start",;     "build": "react-scripts build",;     "test": "react-scripts test",;     "eject": "react-scripts eject";   },;   "eslintConfig": {;     "extends": [;       "react-app",;       "react-app/jest";     ];   },;   "browserslist": {;     "production": [;       ">0.2%",;       "not dead",;       "not op_mini all";     ],;     "development": [;       "last 1 chrome version",;       "last 1 firefox version",;       "last 1 safari version";     ];   }
+ 1732  }
+ 1733  $ npm run deploy -- -m "Deploy React app to GitHub Pages"
+ 1734  ls
+ 1735  $npm run deploy
+ 1736  npm run deploy
+ 1737  cd client/
+ 1738  npm start
+ 1739  git add --all
+ 1740  git commit -m "Add: Product name edit"
+ 1741  git push
+ 1742  history
+ 1743  cat ~/.ssh/id_ed25519.pub
+ 1744  ssh-keygen -t ed25519mk -C "shauliperets0@gmail.com"
+ 1745  ssh-keygen -t ed25519 -C "shauliperets0@gmail.com"
+ 1746  ls ~/.ssh
+ 1747  cat ~/.ssh/id_ed25519-mk
+ 1748  cat ~/.ssh/id_ed25519-mk.pub
+ 1749  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1750  cat ~/.ssh/id_ed25519-mk.pub
+ 1751  ssh-add ~/.ssh/id_ed25519-mk.pub
+ 1752  ssh shauliperets0@34.122.112.232
+ 1753  chmod 644 ~/.ssh/id_ed25519-mk.pub
+ 1754  ssh-add ~/.ssh/id_ed25519-mk.pub
+ 1755  chmod 0644 ~/.ssh/id_ed25519-mk.pub
+ 1756  ssh-add ~/.ssh/id_ed25519-mk.pub
+ 1757  ls ~/.ssh/id_ed25519-mk.pub
+ 1758  ls -l ~/.ssh/id_ed25519-mk.pub
+ 1759  chmod 0400 ~/.ssh/id_ed25519-mk.pub
+ 1760  ssh-add ~/.ssh/id_ed25519-mk.pub
+ 1761  chmod 400 ~/.ssh/id_ed25519-mk.pub
+ 1762  ssh-add ~/.ssh/id_ed25519-mk.pub
+ 1763  chmod 400 ~/.ssh/movieid_ed25519.pub
+ 1764  ssh-add ~/.ssh/id_ed25519-mk.pub
+ 1765  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1766  ls ~/.ssh
+ 1767  ls -l ~/.ssh
+ 1768  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1769  mkdir /home/shaul/.ssh/movie_maker
+ 1770  cd /home/shaul/.ssh/movie_maker
+ 1771  ls
+ 1772  ls
+ 1773  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1774  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1775  ssh shauliperets0@34.122.112.232
+ 1776  ls -l
+ 1777  cat ~/.ssh/movie_maker/id_ed25519.pub
+ 1778  ssh shauliperets0@34.122.112.232
+ 1779  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1780  chmod 400 ~/.ssh/movie_maker/id_ed25519.pub
+ 1781  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1782  chmod 600 ~/.ssh/movie_maker/id_ed25519.pub
+ 1783  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1784  chmod 644 ~/.ssh/movie_maker/id_ed25519.pub
+ 1785  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1786  cd movie_maker/
+ 1787  ls -l
+ 1788  chmod 600 ~/.ssh/movie_maker/id_ed25519.pub
+ 1789  ls -l
+ 1790  chmod 644 ~/.ssh/movie_maker/id_ed25519.pub
+ 1791  ls -l
+ 1792  chmod 644 ~/.ssh/movie_maker/id_ed25519
+ 1793  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1794  ls -l
+ 1795  chmod 400 ~/.ssh/movie_maker/id_ed25519
+ 1796  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1797  chmod 400 ~/.ssh/movie_maker/id_ed25519
+ 1798  chmod 400 ~/.ssh/movie_maker/id_ed25519.pub
+ 1799  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1800  chmod 644 ~/.ssh/movie_maker/id_ed25519.pub
+ 1801  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1802  ls -ls
+ 1803  ls -l ~/.ssh/movie_maker/
+ 1804  cd ..
+ 1805  ls
+ 1806  ls -l
+ 1807  chmod 755 movie_maker/
+ 1808  ls -l
+ 1809  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1810  ls
+ 1811  cd Workspace/
+ 1812  history > history
+ 1813  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1814  ssh-add ~/.ssh/id_ed25519.pub
+ 1815  ssh shauliperets02@34.125.2.54
+ 1816  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1817  ssh shauliperets0@34.122.112.232
+ 1818  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1819  sudo ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1820  cat ~/.ssh/movie_maker/id_ed25519.pub
+ 1821  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1822  ssh shauliperets0@34.122.112.232
+ 1823  ls -l ~/.ssh/movie_maker/id_ed25519.pub
+ 1824  ls -l ~/.ssh/movie_maker/
+ 1825  ls -l /home/shaul/.ssh/
+ 1826  sudo ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1827  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1828  cat ~/.ssh/id_ed25519.pub
+ 1829  ssh-add ~/.ssh/id_ed25519.pub
+ 1830  ssh shauliperets0@34.122.112.232
+ 1831  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1832  ssh-add ~/.ssh/id_ed25519.pub
+ 1833  ssh shauliperets0@34.122.112.232
+ 1834  cat ~/.ssh/id_ed25519.pub
+ 1835  ssh-keygen -t ed25519 -C "shauliperets02@gmail.com"
+ 1836  cat ~/.ssh/id_ed25519.pub
+ 1837  ssh-add ~/.ssh/id_ed25519.pub
+ 1838  ssh shauliperets02@34.125.2.54
+ 1839  ls -al ~/.ssh
+ 1840  cd cd /home/shaul/.ssh/movie_maker/
+ 1841  cd /home/shaul/.ssh/movie_maker/
+ 1842  ls
+ 1843  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1844  la /home/shaul/.ssh/movie_maker/
+ 1845  ls /home/shaul/.ssh/movie_maker/
+ 1846  ls -l /home/shaul/.ssh/movie_maker/
+ 1847  rm /home/shaul/.ssh/movie_maker/
+ 1848  rm /home/shaul/.ssh/movie_maker/id_ed25519
+ 1849  rm /home/shaul/.ssh/movie_maker/id_ed25519.pub 
+ 1850  ls
+ 1851  ssh-keygen -t ed25519 -C "shauliperets@gmail.com"
+ 1852  ls -l /home/shaul/.ssh/movie_maker/
+ 1853  cat /home/shaul/.ssh/movie_maker/id_ed25519.pub
+ 1854  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1855  ssh shauliperets0@34.122.112.232
+ 1856  ssh shauliperets@34.122.112.232
+ 1857  ls ~/.ssh/
+ 1858  cd ~/.ssh/
+ 1859  rm id_ed25519-mk
+ 1860  rm id_ed25519-mk.pub
+ 1861  ls
+ 1862  vi known_hosts 
+ 1863  cd ~/.ssh/
+ 1864  vi known_hosts 
+ 1865  ssh shauliperets@34.122.112.232
+ 1866  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1867  ssh shauliperets@34.122.112.232
+ 1868  cat ~/.ssh/movie_maker/id_ed25519.pub
+ 1869  ssh shauliperets@34.122.112.232
+ 1870  cat ~/.ssh/movie_maker/id_ed25519.pub
+ 1871  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1872  ssh shauliperets@34.122.112.232
+ 1873  npm start
+ 1874  node -v
+ 1875  ssh-add ~/.ssh/movie_maker/id_ed25519.pub
+ 1876  ssh shauliperets@34.122.112.232
+ 1877  ssh 35.232.111.233
+ 1878  cd ./Workspace/Projects/MovieMakerProject/
+ 1879  ls
+ 1880  ./MovieMaker
+ 1881  cd ./MovieMaker
+ 1882  ls
+ 1883  history > history
+ 1884  ssh -i ~/.ssh/movie_maker/id_ed25519 shauliperets@35.232.111.233
+ 1885  npm start
+ 1886  cd ..
+ 1887  git add --all
+ 1888  git commit -m "Adding: slide 1"
+ 1889  git push
+ 1890  cd client/
+ 1891  npm start
+ 1892  git add --all
+ 1893  git commit -m "Adding: slide 1 load background"
+ 1894  git push
+ 1895  ssh -i ~/.ssh/movie_maker/id_ed25519 shauliperets@35.232.111.233
+ 1896  npm start
+ 1897  git add --all
+ 1898  git commit -m "Adding: Slide three & price"
+ 1899  git push
+ 1900  npm start
+ 1901  cd ..
+ 1902  ls
+ 1903  cd MovieMaker/client/
+ 1904  npm start
+ 1905  git add --all
+ 1906  git commit -m "Adding: notes & price"
+ 1907  git status
+ 1908  git log
+ 1909  git push
+ 1910  npm start
+ 1911  ssh -i ~/.ssh/movie_maker/id_ed25519 shauliperets@35.232.111.233
+ 1912  cd client/
+ 1913  npm start
+ 1914  git add --all
+ 1915  git status
+ 1916  git push
+ 1917  cd..
+ 1918  cd ..
+ 1919  git add --all
+ 1920  git commit "Update gitignore"
+ 1921  git commit -m "Update gitignore"
+ 1922  git push
+ 1923  git commit "Update gitignore"
+ 1924  git commit -m "Update gitignore"
+ 1925  git add --all
+ 1926  git commit -m "Update gitignore"
+ 1927  git push
+ 1928  git add --all
+ 1929  git commit -m "Update gitignore"
+ 1930  git push
+ 1931  git add --all
+ 1932  git commit -m "Update gitignore"
+ 1933  git push
+ 1934  npm start
+ 1935  cd client/
+ 1936  npm start
+ 1937  git add --all
+ 1938  git commit -m "Update: Create Slide component"
+ 1939  git push
+ 1940  npm start
+ 1941  cd client/
+ 1942  npm start
+ 1943  npm start
+ 1944  node -e "console.log(require('crypto').randomBytes(32).toString('hex'));"
+ 1945  git log
+ 1946  git add --all
+ 1947  git commit -m "1.3"
+ 1948  git push
+ 1949  npm install
+ 1950  npm start
+ 1951  npm run start
+ 1952  cd ./backend/
+ 1953  npm start
+ 1954  cd backend/
+ 1955  npm start
+ 1956  npm install jsonwebtoken --save
+ 1957  npm start
+ 1958  npm install dotenv --save
+ 1959  npm start
+ 1960  cd ..
+ 1961  git add --all
+ 1962  git commit -m "1.8"
+ 1963  git push
+ 1964  gcc --version
+ 1965  apt-get install gcc@4.8.2
+ 1966  sudo apt-get install gcc@4.8.2
+ 1967  sudo make
+ 1968  ssh -i ~/.ssh/movie_maker/id_ed25519 shauliperets@35.232.111.233
+ 1969  sudo make
+ 1970  ssh -i ~/.ssh/movie_maker/id_ed25519 shauliperets@35.232.111.233
+ 1971  cd ~
+ 1972  cd ./Workspace/Practicum/react-around-api-full
+ 1973  ls
+ 1974  cd backend/
+ 1975  ls
+ 1976  ssh -i ~/.ssh/id_ed25519 shauliperets02@34.125.2.54
+ 1977  ssh-add ~/.ssh/id_ed25519.pub
+ 1978  ssh shauliperets02@34.125.2.54
+ 1979  ssh -i ~/.ssh/id_ed25519 shauliperets02@34.125.2.54
+ 1980  ssh -i ~/.ssh/movie_maker/id_ed25519 shauliperets@35.232.111.233
+ 1981  cat /home/shaul/.ssh/id_ed25519.pub
+ 1982  cat /home/shaul/.ssh/movie_maker/id_ed25519.pub 
+ 1983  cd frontend/
+ 1984  npm start
+ 1985  npm start
+ 1986  cd backend/
+ 1987  npm start
+ 1988  history > history.txt

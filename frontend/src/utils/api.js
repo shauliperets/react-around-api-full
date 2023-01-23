@@ -5,7 +5,7 @@ class Api {
   }
 
   getUserInfo() {
-    return fetch(`${this._baseUrl}/users/me`, {
+    return fetch(/*`${this._baseUrl}/users/me`*/ `${this._baseUrl}/users`, {
       headers: this._headers,
     }).then((response) => this._checkResponse(response));
   }
@@ -70,16 +70,20 @@ class Api {
   }
 
   _checkResponse(response) {
-    if (response.ok) return response.json();
+    if (response.ok) {
+      return response.json();
+    }
 
     return Promise.reject(`Error: ${response.status}`);
   }
 }
 
 export const api = new Api({
-  baseUrl: "https://around.nomoreparties.co/v1/cohort-3-en",
+  //baseUrl: "https://around.nomoreparties.co/v1/cohort-3-en",
+  baseUrl: "http://localhost:3112",
   headers: {
     authorization: "7c286de8-6d0b-40ef-bc6e-36b7a6f017e2",
+    //"Access-Control-Allow-Origin": "*",
     "Content-Type": "application/json",
   },
 });

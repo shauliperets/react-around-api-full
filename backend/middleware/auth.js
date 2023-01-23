@@ -1,4 +1,5 @@
 const jwt = require("jsonwebtoken");
+
 require("dotenv").config();
 
 module.exports = (request, response, next) => {
@@ -9,6 +10,7 @@ module.exports = (request, response, next) => {
   }
 
   const token = authorization.replace("Bearer ", "");
+
   let payload;
 
   try {

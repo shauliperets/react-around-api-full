@@ -1,4 +1,5 @@
-export const BASE_URL = "https://register.nomoreparties.co";
+//export const BASE_URL = "https://register.nomoreparties.co";
+export const BASE_URL = "http://localhost:3112";
 
 export const register = (email, password) => {
   return fetch(`${BASE_URL}/signup`, {
@@ -22,9 +23,12 @@ export const login = (email, password) => {
     body: JSON.stringify({ email, password }),
   })
     .then((response) => {
+      console.log("login first response: ", response);
+
       return _checkResponse(response);
     })
     .then((data) => {
+      console.log("login second response: ", data);
       if (data.token) {
         localStorage.setItem("token", data.token);
         return data;
@@ -35,7 +39,7 @@ export const login = (email, password) => {
 };
 
 export const checkToken = (token) => {
-  return fetch(`${BASE_URL}/users/me`, {
+  return fetch(`${BASE_URL}/users`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",

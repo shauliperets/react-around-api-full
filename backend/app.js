@@ -1,14 +1,17 @@
 const express = require("express");
 const mongoose = require("mongoose");
+var cors = require("cors");
 
 const cardsRouter = require("./routes/cards");
 const usersRouter = require("./routes/users");
+
+const { login, createUser } = require("./controllers/users");
 
 const constants = require("./constants/index"); //delete it
 
 const auth = require("./middleware/auth");
 
-const { PORT = 3000 } = process.env;
+const { PORT = 3112 } = process.env;
 
 const app = express();
 
@@ -25,7 +28,13 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 
-app.use(auth);
+app.use(cors());
+app.options("*", cors());
+
+//app.use(auth);
+
+app.use("/signin", login);
+app.use("/signup", createUser);
 
 app.use("/users", usersRouter);
 app.use("/cards", cardsRouter);

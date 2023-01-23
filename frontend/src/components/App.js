@@ -37,29 +37,72 @@ function App() {
 
   const history = useHistory();
 
-  React.useEffect(() => {
-    tokenCheck();
+  React.useEffect(
+    () => {
+      //tokenCheck();
+      console.log("on load");
+      setTooltipOn(false);
+      setTooltipMessage("");
 
-    api
+      const token = localStorage.getItem("token");
+
+      console.log("on load token", token);
+      // problem: token in empty
+      if (token) {
+        checkToken(token)
+          .then((response) => {
+            if (response) {
+              console.log("chek token response =>", response);
+              //setLoggedIn(true);
+              //setHeaderEmail(response.data.email);
+              //history.push("/");
+
+              api.getUserInfo().then((response) => {
+                setCurrentUser(response.data);
+
+                enableValidation();
+              });
+
+              api.getInitialCards().then((response) => {
+                //console.log(response.data);
+                setCards(response.data);
+              });
+
+              console.log("app token reponse =>", response);
+            } else {
+              redirectLogin();
+            }
+          })
+          .catch((error) => {
+            console.log("An error occurred: ", error);
+          });
+      } else {
+        redirectLogin();
+      }
+
+      /*api
       .getUserInfo()
       .then((response) => {
-        setCurrentUser(response);
+        setCurrentUser(response.data);
 
         enableValidation();
       })
       .catch((error) => {
         console.log("An error occurred: ", error);
       });
+    */
 
-    api
+      /*api
       .getInitialCards()
       .then((response) => {
-        setCards(response);
+        //console.log(response.data);
+        setCards(response.data);
       })
       .catch((error) => {
         console.log("An error occurred: ", error);
-      });
-  }, []);
+      });*/
+    } /*, []*/
+  );
 
   function handleEditAvatarClick() {
     setIsEditAvatarOpen(true);
