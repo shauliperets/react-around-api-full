@@ -37,50 +37,49 @@ function App() {
 
   const history = useHistory();
 
-  React.useEffect(
-    () => {
-      //tokenCheck();
-      console.log("on load");
-      setTooltipOn(false);
-      setTooltipMessage("");
+  React.useEffect(() => {
+    //tokenCheck();
+    console.log("on load");
+    setTooltipOn(false);
+    setTooltipMessage("");
 
-      const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token");
 
-      console.log("on load token", token);
-      // problem: token in empty
-      if (token) {
-        checkToken(token)
-          .then((response) => {
-            if (response) {
-              console.log("chek token response =>", response);
-              //setLoggedIn(true);
-              //setHeaderEmail(response.data.email);
-              //history.push("/");
+    console.log("on load token", token);
+    // problem: token in empty
+    if (token) {
+      checkToken(token)
+        .then((response) => {
+          if (response) {
+            console.log("chek token response =>", response);
+            //setLoggedIn(true);
+            //setHeaderEmail(response.data.email);
+            //history.push("/");
 
-              api.getUserInfo().then((response) => {
-                setCurrentUser(response.data);
+            api.getUserInfo().then((response) => {
+              setCurrentUser(response.data);
 
-                enableValidation();
-              });
+              enableValidation();
+            });
 
-              api.getInitialCards().then((response) => {
-                //console.log(response.data);
-                setCards(response.data);
-              });
+            api.getInitialCards().then((response) => {
+              //console.log(response.data);
+              setCards(response.data);
+            });
 
-              console.log("app token reponse =>", response);
-            } else {
-              redirectLogin();
-            }
-          })
-          .catch((error) => {
-            console.log("An error occurred: ", error);
-          });
-      } else {
-        redirectLogin();
-      }
+            console.log("app token reponse =>", response);
+          } else {
+            redirectLogin();
+          }
+        })
+        .catch((error) => {
+          console.log("An error occurred: ", error);
+        });
+    } else {
+      redirectLogin();
+    }
 
-      /*api
+    /*api
       .getUserInfo()
       .then((response) => {
         setCurrentUser(response.data);
@@ -92,7 +91,7 @@ function App() {
       });
     */
 
-      /*api
+    /*api
       .getInitialCards()
       .then((response) => {
         //console.log(response.data);
@@ -101,8 +100,7 @@ function App() {
       .catch((error) => {
         console.log("An error occurred: ", error);
       });*/
-    } /*, []*/
-  );
+  }, []);
 
   function handleEditAvatarClick() {
     setIsEditAvatarOpen(true);

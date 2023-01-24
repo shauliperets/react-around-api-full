@@ -1,5 +1,5 @@
 //export const BASE_URL = "https://register.nomoreparties.co";
-export const BASE_URL = "http://localhost:3112";
+export const BASE_URL = "http://localhost:3200";
 
 export const register = (email, password) => {
   return fetch(`${BASE_URL}/signup`, {
@@ -28,9 +28,9 @@ export const login = (email, password) => {
       return _checkResponse(response);
     })
     .then((data) => {
-      console.log("login second response: ", data);
-      if (data.token) {
-        localStorage.setItem("token", data.token);
+      console.log("login second response: ", data.data);
+      if (data.data) {
+        localStorage.setItem("token", data.data);
         return data;
       } else {
         return;

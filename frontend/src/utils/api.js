@@ -80,7 +80,7 @@ class Api {
 
 export const api = new Api({
   //baseUrl: "https://around.nomoreparties.co/v1/cohort-3-en",
-  baseUrl: "http://localhost:3112",
+  baseUrl: "http://localhost:3200",
   headers: {
     authorization: "7c286de8-6d0b-40ef-bc6e-36b7a6f017e2",
     //"Access-Control-Allow-Origin": "*",

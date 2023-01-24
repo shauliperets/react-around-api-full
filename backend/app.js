@@ -11,7 +11,7 @@ const constants = require("./constants/index"); //delete it
 
 const auth = require("./middleware/auth");
 
-const { PORT = 3112 } = process.env;
+const { PORT = 3200 } = process.env;
 
 const app = express();
 
