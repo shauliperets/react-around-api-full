@@ -12,19 +12,19 @@ function Card(props) {
   }
 
   return (
-    <div className="card" card_id={props.id}>
+    <div className="card" card_id={props.data._id}>
       <button
-        className={isOwned(props.ownerId) ? "card__delete-button card__delete-button_active" : "card__delete-button"}
+        className={isOwned(props.data.owner) ? "card__delete-button card__delete-button_active" : "card__delete-button"}
         type="button"
         onClick={() => {
-          props.onDeleteCard(props.id);
+          props.onDeleteCard(props.data._id);
         }}
       >
         <img src={binIcon} alt="Delete card" />
       </button>
-      <img src={props.link} alt={props.title} className="card__image" onClick={props.onCardClick} />
+      <img src={props.data.link} alt={props.data.name} className="card__image" onClick={props.onCardClick} />
       <div className="card__title-panel">
-        <h2 className="card__title">{props.title}</h2>
+        <h2 className="card__title">{props.data.name}</h2>
         <div className="card__like-container">
           <button
             className="card__like-button"
@@ -34,12 +34,12 @@ function Card(props) {
             }}
           >
             <img
-              src={props.isLiked(props.likes, currentUser._id) ? blackHeartIcon : whiteHeartIcon}
+              src={props.isLiked(props.data.likes, currentUser._id) ? blackHeartIcon : whiteHeartIcon}
               className="card__icon"
               alt="Heart icon"
             />
           </button>
-          <div className="card__like-counter">{props.likes.length}</div>
+          <div className="card__like-counter">{props.data.likes.length}</div>
         </div>
       </div>
     </div>

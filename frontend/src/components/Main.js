@@ -28,14 +28,13 @@ function Main(props) {
       <section className="elements">
         {props.cards.map((card) => (
           <Card
-            key={card._id}
+            key={card._id} //delete it
             data={card}
-            id={card._id}
-            ownerId={card.owner._id}
-            title={card.name}
-            link={card.link}
-            likes={card.likes}
-            userId={props.userId}
+            id={card._id} //delete it
+            title={card.name} //delete it
+            link={card.link} //delete it
+            likes={card.likes} //delete it
+            userId={props.userId} //delete it
             onDeleteCard={props.onCardDelete}
             onCardClick={props.onCardClick}
             onLikeClick={props.onCardLike}

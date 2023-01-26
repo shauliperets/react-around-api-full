@@ -31,10 +31,10 @@ app.use(express.json());
 app.use(cors());
 app.options("*", cors());
 
-//app.use(auth);
-
 app.use("/signin", login);
 app.use("/signup", createUser);
+
+app.use(auth);
 
 app.use("/users", usersRouter);
 app.use("/cards", cardsRouter);

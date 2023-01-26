@@ -14,12 +14,13 @@ module.exports.getUsers = (request, response) => {
 };
 
 module.exports.getUser = (request, response) => {
-  console.log("--- reuest user -- >", request.user);
+  //console.log("--- request user -- >", request.user);
+  //console.log("--- user authorization: ", request.headers.authorization);
 
-  User.findById(request.params.userId)
+  User.findById(request.user._id)
     .orFail()
     .then((user) => {
-      console.log(user);
+      //console.log(user);
       response.send({ data: user });
     })
     .catch((error) => {
@@ -101,6 +102,9 @@ module.exports.updateProfile = (request, response) => {
 module.exports.updateAvatar = (request, response) => {
   const { avatar } = request.body;
 
+  //console.log("--- request avatar -- >", request.user);
+  //console.log("--- avatr authorization: ", request.headers.authorization);
+
   User.findByIdAndUpdate(
     request.user._id,
     { avatar },
@@ -110,7 +114,10 @@ module.exports.updateAvatar = (request, response) => {
     }
   )
     .orFail()
-    .then((user) => response.send({ data: user }))
+    .then((user) => {
+      console.log("--- user avatar found: ", user);
+      return response.send({ data: user });
+    })
     .catch((error) => {
       if (error.name === "ValidationError") {
         response.status(constants.errorStatus.e400).send({ message: constants.errorMessage.e400 });
@@ -126,11 +133,11 @@ module.exports.updateAvatar = (request, response) => {
 module.exports.login = (request, response) => {
   const { email, password } = request.body;
 
-  console.log("login ----->", password, email);
+  //console.log("login ----->", password, email);
 
   return User.findUserByCredentials(email, password)
     .then((user) => {
-      console.log("login user response => ", user);
+      //console.log("login user response => ", user);
       const token = jwt.sign({ _id: user._id }, process.env.NODE_ENV, { expiresIn: "7d" });
 
       //console.log("key =>", process.env.NODE_ENV);

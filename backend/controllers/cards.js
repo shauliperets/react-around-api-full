@@ -16,7 +16,11 @@ module.exports.createCard = (request, response) => {
   const userId = request.user._id;
 
   Card.create({ name, link, owner: userId })
-    .then((card) => response.send({ data: card }))
+    .then((card) => {
+      console.log("--- card result -->", card);
+      console.log("--- card.owner result -->", card.owner);
+      return response.send({ data: card });
+    })
     .catch((error) => {
       if (error.name === "ValidationError") {
         response.status(constants.errorStatus.e400).send({ message: constants.errorMessage.e400 });

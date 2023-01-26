@@ -1,19 +1,26 @@
 class Api {
-  constructor({ baseUrl, headers }) {
+  constructor({ baseUrl /*, headers*/ }) {
     this._baseUrl = baseUrl;
-    this._headers = headers;
+    //this._headers = headers;
   }
 
-  getUserInfo() {
+  getHeader(token) {
+    return {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    };
+  }
+
+  getUserInfo(token) {
     return fetch(/*`${this._baseUrl}/users/me`*/ `${this._baseUrl}/users`, {
-      headers: this._headers,
+      headers: /*this._headers*/ this.getHeader(token),
     }).then((response) => this._checkResponse(response));
   }
 
-  setUserInfo(username, userJob) {
+  setUserInfo(token, username, userJob) {
     return fetch(`${this._baseUrl}/users/me`, {
       method: "PATCH",
-      headers: this._headers,
+      headers: this.getHeader(token),
       body: JSON.stringify({
         name: username,
         about: userJob,
@@ -21,26 +28,26 @@ class Api {
     }).then((response) => this._checkResponse(response));
   }
 
-  setProfileImage(avatar) {
+  setProfileImage(token, avatar) {
     return fetch(`${this._baseUrl}/users/me/avatar`, {
       method: "PATCH",
-      headers: this._headers,
+      headers: this.getHeader(token),
       body: JSON.stringify({
         avatar: avatar,
       }),
     }).then((response) => this._checkResponse(response));
   }
 
-  getInitialCards() {
+  getInitialCards(token) {
     return fetch(`${this._baseUrl}/cards`, {
-      headers: this._headers,
+      headers: /*this._headers*/ this.getHeader(token),
     }).then((response) => this._checkResponse(response));
   }
 
-  addCard(name, link) {
+  addCard(token, name, link) {
     return fetch(`${this._baseUrl}/cards`, {
       method: "POST",
-      headers: this._headers,
+      headers: this.getHeader(token),
       body: JSON.stringify({
         name: name,
         link: link,
@@ -81,9 +88,11 @@ class Api {
 export const api = new Api({
   //baseUrl: "https://around.nomoreparties.co/v1/cohort-3-en",
   baseUrl: "http://localhost:3200",
-  headers: {
-    authorization: "7c286de8-6d0b-40ef-bc6e-36b7a6f017e2",
+
+  /*headers: {
+    //authorization: "7c286de8-6d0b-40ef-bc6e-36b7a6f017e2",
+    //Authorization: `Bearer ${token}`,
     //"Access-Control-Allow-Origin": "*",
     "Content-Type": "application/json",
-  },
+  },*/
 });

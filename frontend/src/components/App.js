@@ -39,45 +39,9 @@ function App() {
 
   React.useEffect(() => {
     //tokenCheck();
-    console.log("on load");
+    console.log("On load");
     setTooltipOn(false);
     setTooltipMessage("");
-
-    const token = localStorage.getItem("token");
-
-    console.log("on load token", token);
-    // problem: token in empty
-    if (token) {
-      checkToken(token)
-        .then((response) => {
-          if (response) {
-            console.log("chek token response =>", response);
-            //setLoggedIn(true);
-            //setHeaderEmail(response.data.email);
-            //history.push("/");
-
-            api.getUserInfo().then((response) => {
-              setCurrentUser(response.data);
-
-              enableValidation();
-            });
-
-            api.getInitialCards().then((response) => {
-              //console.log(response.data);
-              setCards(response.data);
-            });
-
-            console.log("app token reponse =>", response);
-          } else {
-            redirectLogin();
-          }
-        })
-        .catch((error) => {
-          console.log("An error occurred: ", error);
-        });
-    } else {
-      redirectLogin();
-    }
 
     /*api
       .getUserInfo()
@@ -102,6 +66,59 @@ function App() {
       });*/
   }, []);
 
+  function initialPage() {
+    /*api.getUserInfo().then((response) => {
+      setCurrentUser(response.data);
+
+      enableValidation();
+    });
+
+    api.getInitialCards().then((response) => {
+      //console.log(response.data);
+      setCards(response.data);
+    });*/
+
+    const token = localStorage.getItem("token");
+
+    console.log("page load token local", token);
+
+    if (token) {
+      checkToken(token)
+        .then((response) => {
+          if (response) {
+            console.log("page load token response =>", response);
+            //setLoggedIn(true);
+            //setHeaderEmail(response.data.email);
+            //history.push("/");
+
+            //initialPage();
+
+            api.getUserInfo(token).then((response) => {
+              setCurrentUser(response.data);
+
+              console.log("current user: ", response.data);
+
+              enableValidation();
+            });
+
+            api.getInitialCards(token).then((response) => {
+              console.log("Initial cards: ", response.data);
+              setCards(response.data);
+            });
+          } else {
+            redirectLogin();
+          }
+        })
+        .catch((error) => {
+          console.log("An error occurred: ", error);
+        });
+    } else {
+      console.log("token is null");
+
+      redirectLogin();
+    }
+  }
+
   function handleEditAvatarClick() {
     setIsEditAvatarOpen(true);
   }
@@ -122,10 +139,13 @@ function App() {
   const handleCreateCardSubmit = (title, link) => {
     setIsLoading(true);
 
+    const token = localStorage.getItem("token");
+
     api
-      .addCard(title, link)
+      .addCard(token, title, link)
       .then((response) => {
-        setCards([response, ...cards]);
+        console.log("Add card response: ", response);
+        setCards([response.data, ...cards]);
         closeAllPopups();
       })
       .catch((error) => {
@@ -151,10 +171,12 @@ function App() {
   const handleEditProfileSubmit = (name, about) => {
     setIsLoading(true);
 
+    const token = localStorage.getItem("token");
+
     api
-      .setUserInfo(name, about)
+      .setUserInfo(token, name, about)
       .then((response) => {
-        setCurrentUser({ ...currentUser, name: response?.name, about: response?.about });
+        setCurrentUser({ ...currentUser, name: response.data?.name, about: response.data?.about });
         //console.log("response =>", response);
         closeAllPopups();
       })
@@ -169,10 +191,12 @@ function App() {
   const handleEditAvatarSubmit = (avatar) => {
     setIsLoading(true);
 
+    const token = localStorage.getItem("token");
+
     api
-      .setProfileImage(avatar)
+      .setProfileImage(token, avatar)
       .then((response) => {
-        setCurrentUser({ ...currentUser, avatar: response?.avatar });
+        setCurrentUser({ ...currentUser, avatar: response.data?.avatar });
         closeAllPopups();
       })
       .catch((error) => {
@@ -280,6 +304,8 @@ function App() {
   }
 
   function handleLoginSubmit(email, password) {
+    console.log("login clicked");
+
     login(email, password)
       .then((data) => {
         setIsAuthorized(true);
@@ -288,6 +314,8 @@ function App() {
         setLoggedIn(true);
         setHeaderEmail(email);
         history.push("/");
+
+        initialPage();
       })
       .catch((error) => {
         console.log("An error occurred: ", error);

@@ -5,6 +5,9 @@ require("dotenv").config();
 module.exports = (request, response, next) => {
   const { authorization } = request.headers;
 
+  //console.log("authorization: ", authorization);
+  //console.log("----------------------------------------------------------");
+
   if (!authorization || !authorization.startsWith("Bearer ")) {
     return response.status(403).send({ message: "Authorization Required" });
   }
