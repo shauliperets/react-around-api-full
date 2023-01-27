@@ -38,71 +38,24 @@ function App() {
   const history = useHistory();
 
   React.useEffect(() => {
-    //tokenCheck();
-    console.log("On load");
     setTooltipOn(false);
     setTooltipMessage("");
-
-    /*api
-      .getUserInfo()
-      .then((response) => {
-        setCurrentUser(response.data);
-
-        enableValidation();
-      })
-      .catch((error) => {
-        console.log("An error occurred: ", error);
-      });
-    */
-
-    /*api
-      .getInitialCards()
-      .then((response) => {
-        //console.log(response.data);
-        setCards(response.data);
-      })
-      .catch((error) => {
-        console.log("An error occurred: ", error);
-      });*/
   }, []);
 
   function initialPage() {
-    /*api.getUserInfo().then((response) => {
-      setCurrentUser(response.data);
-
-      enableValidation();
-    });
-
-    api.getInitialCards().then((response) => {
-      //console.log(response.data);
-      setCards(response.data);
-    });*/
-
     const token = localStorage.getItem("token");
-
-    console.log("page load token local", token);
 
     if (token) {
       checkToken(token)
         .then((response) => {
           if (response) {
-            console.log("page load token response =>", response);
-            //setLoggedIn(true);
-            //setHeaderEmail(response.data.email);
-            //history.push("/");
-
-            //initialPage();
-
             api.getUserInfo(token).then((response) => {
               setCurrentUser(response.data);
-
-              console.log("current user: ", response.data);
 
               enableValidation();
             });
 
             api.getInitialCards(token).then((response) => {
-              console.log("Initial cards: ", response.data);
               setCards(response.data);
             });
           } else {
@@ -113,8 +66,6 @@ function App() {
           console.log("An error occurred: ", error);
         });
     } else {
-      console.log("token is null");
-
       redirectLogin();
     }
   }
@@ -144,7 +95,6 @@ function App() {
     api
       .addCard(token, title, link)
       .then((response) => {
-        console.log("Add card response: ", response);
         setCards([response.data, ...cards]);
         closeAllPopups();
       })
@@ -177,7 +127,6 @@ function App() {
       .setUserInfo(token, name, about)
       .then((response) => {
         setCurrentUser({ ...currentUser, name: response.data?.name, about: response.data?.about });
-        //console.log("response =>", response);
         closeAllPopups();
       })
       .catch((error) => {
@@ -253,8 +202,10 @@ function App() {
   }
 
   const handleDeleteCard = (cardId) => {
+    const token = localStorage.getItem("token");
+
     api
-      .deleteCard(cardId)
+      .deleteCard(token, cardId)
       .then(() => {
         setCards((state) => state.filter((item) => item._id !== cardId));
       })
@@ -304,13 +255,10 @@ function App() {
   }
 
   function handleLoginSubmit(email, password) {
-    console.log("login clicked");
-
     login(email, password)
       .then((data) => {
         setIsAuthorized(true);
         setTooltipMessage("Success! You are now login");
-        setTooltipOn(true);
         setLoggedIn(true);
         setHeaderEmail(email);
         history.push("/");
@@ -319,7 +267,10 @@ function App() {
       })
       .catch((error) => {
         console.log("An error occurred: ", error);
-      });
+        setIsAuthorized(false);
+        setTooltipMessage(error);
+      })
+      .finally(setTooltipOn(true));
   }
 
   function tokenCheck() {

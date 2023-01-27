@@ -7,8 +7,6 @@ const usersRouter = require("./routes/users");
 
 const { login, createUser } = require("./controllers/users");
 
-const constants = require("./constants/index"); //delete it
-
 const auth = require("./middleware/auth");
 
 const { PORT = 3200 } = process.env;
@@ -16,15 +14,6 @@ const { PORT = 3200 } = process.env;
 const app = express();
 
 mongoose.connect("mongodb://localhost:27017/aroundb");
-
-/*
-app.use((req, res, next) => {
-  req.user = {
-    _id: "637e78acb1303580d8bc380a", // paste the _id of the test user created in manually
-  };
-
-  next();
-});*/
 
 app.use(express.json());
 

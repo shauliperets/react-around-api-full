@@ -4,23 +4,10 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 require("dotenv").config();
 
-//delete it
-module.exports.getUsers = (request, response) => {
-  User.find({})
-    .then((users) => response.send({ data: users }))
-    .catch((error) => {
-      response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
-    });
-};
-
 module.exports.getUser = (request, response) => {
-  //console.log("--- request user -- >", request.user);
-  //console.log("--- user authorization: ", request.headers.authorization);
-
   User.findById(request.user._id)
     .orFail()
     .then((user) => {
-      //console.log(user);
       response.send({ data: user });
     })
     .catch((error) => {
@@ -43,13 +30,11 @@ module.exports.createUser = (request, response) => {
 
   bcrypt.genSalt(10, function (error, salt) {
     if (error) {
-      console.log("Salt error", error);
       response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
       return;
     }
     bcrypt.hash(password, salt, function (error, hash) {
       if (error) {
-        console.log("Hash error", error);
         response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
         return;
       }
@@ -63,10 +48,6 @@ module.exports.createUser = (request, response) => {
             console.log("User already exists");
             response.status(constants.errorStatus.e400).send({ message: "User name already exists" });
           } else {
-            console.log("error name", error.name);
-            console.log("--------------------------");
-            console.log("error message", error.message);
-            console.log("--------------------------");
             response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });
           }
         });
@@ -102,9 +83,6 @@ module.exports.updateProfile = (request, response) => {
 module.exports.updateAvatar = (request, response) => {
   const { avatar } = request.body;
 
-  //console.log("--- request avatar -- >", request.user);
-  //console.log("--- avatr authorization: ", request.headers.authorization);
-
   User.findByIdAndUpdate(
     request.user._id,
     { avatar },
@@ -115,7 +93,6 @@ module.exports.updateAvatar = (request, response) => {
   )
     .orFail()
     .then((user) => {
-      console.log("--- user avatar found: ", user);
       return response.send({ data: user });
     })
     .catch((error) => {
@@ -133,14 +110,9 @@ module.exports.updateAvatar = (request, response) => {
 module.exports.login = (request, response) => {
   const { email, password } = request.body;
 
-  //console.log("login ----->", password, email);
-
   return User.findUserByCredentials(email, password)
     .then((user) => {
-      //console.log("login user response => ", user);
       const token = jwt.sign({ _id: user._id }, process.env.NODE_ENV, { expiresIn: "7d" });
-
-      //console.log("key =>", process.env.NODE_ENV);
 
       response.send({ data: token });
     })

@@ -1,7 +1,6 @@
 class Api {
-  constructor({ baseUrl /*, headers*/ }) {
+  constructor({ baseUrl }) {
     this._baseUrl = baseUrl;
-    //this._headers = headers;
   }
 
   getHeader(token) {
@@ -12,8 +11,8 @@ class Api {
   }
 
   getUserInfo(token) {
-    return fetch(/*`${this._baseUrl}/users/me`*/ `${this._baseUrl}/users`, {
-      headers: /*this._headers*/ this.getHeader(token),
+    return fetch(`${this._baseUrl}/users`, {
+      headers: this.getHeader(token),
     }).then((response) => this._checkResponse(response));
   }
 
@@ -40,7 +39,7 @@ class Api {
 
   getInitialCards(token) {
     return fetch(`${this._baseUrl}/cards`, {
-      headers: /*this._headers*/ this.getHeader(token),
+      headers: this.getHeader(token),
     }).then((response) => this._checkResponse(response));
   }
 
@@ -69,10 +68,10 @@ class Api {
     }
   }
 
-  deleteCard(id) {
+  deleteCard(token, id) {
     return fetch(`${this._baseUrl}/cards/${id}`, {
       method: "DELETE",
-      headers: this._headers,
+      headers: this.getHeader(token),
     }).then((response) => this._checkResponse(response));
   }
 
@@ -88,11 +87,4 @@ class Api {
 export const api = new Api({
   //baseUrl: "https://around.nomoreparties.co/v1/cohort-3-en",
   baseUrl: "http://localhost:3200",
-
-  /*headers: {
-    //authorization: "7c286de8-6d0b-40ef-bc6e-36b7a6f017e2",
-    //Authorization: `Bearer ${token}`,
-    //"Access-Control-Allow-Origin": "*",
-    "Content-Type": "application/json",
-  },*/
 });

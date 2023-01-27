@@ -5,11 +5,9 @@ function Login(props) {
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
 
-  React.useEffect(
-    () => {
-      localStorage.removeItem("token");
-    } /*, []*/
-  );
+  React.useEffect(() => {
+    localStorage.removeItem("token");
+  }, []);
 
   function updateEmail(event) {
     setEmail(event.target.value);

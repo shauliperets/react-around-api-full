@@ -23,12 +23,9 @@ export const login = (email, password) => {
     body: JSON.stringify({ email, password }),
   })
     .then((response) => {
-      //console.log("login first response: ", response);
-
       return _checkResponse(response);
     })
     .then((data) => {
-      //console.log("login second response: ", data.data);
       if (data.data) {
         localStorage.setItem("token", data.data);
         return data;
