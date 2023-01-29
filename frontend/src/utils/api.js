@@ -11,7 +11,7 @@ class Api {
   }
 
   getUserInfo(token) {
-    return fetch(`${this._baseUrl}/users`, {
+    return fetch(`${this._baseUrl}/users/me`, {
       headers: this.getHeader(token),
     }).then((response) => this._checkResponse(response));
   }

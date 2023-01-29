@@ -24,10 +24,6 @@ module.exports.getUser = (request, response) => {
 module.exports.createUser = (request, response) => {
   const { name, about, avatar, email, password } = request.body;
 
-  /*bcrypt.hash(password, process.env.JWT_SECRET).then((hash) => {
-    console.log("hase pass => ", hash);
-  });*/
-
   bcrypt.genSalt(10, function (error, salt) {
     if (error) {
       response.status(constants.errorStatus.e500).send({ message: constants.errorMessage.e500 });

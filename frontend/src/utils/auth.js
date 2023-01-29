@@ -1,13 +1,13 @@
 //export const BASE_URL = "https://register.nomoreparties.co";
 export const BASE_URL = "http://localhost:3200";
 
-export const register = (email, password) => {
+export const register = (name, email, password) => {
   return fetch(`${BASE_URL}/signup`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ email, password }),
+    body: JSON.stringify({ name, email, password }),
   }).then((response) => {
     return _checkResponse(response);
   });
@@ -36,7 +36,7 @@ export const login = (email, password) => {
 };
 
 export const checkToken = (token) => {
-  return fetch(`${BASE_URL}/users`, {
+  return fetch(`${BASE_URL}/users/me`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",

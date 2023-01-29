@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     minlength: 2,
     maxlength: 30,
-    //required: true,
+    required: true,
     validate: {
       validator(v) {
         const regex = /^[A-Za-z1-9]+@[A-Za-z1-9]+.[A-Za-z1-9]+$/;

@@ -234,8 +234,8 @@ function App() {
     setTooltipOn(false);
   }
 
-  function handleRegisterSubmit(email, password) {
-    register(email, password)
+  function handleRegisterSubmit(name, email, password) {
+    register(name, email, password)
       .then((data) => {
         if (typeof data.error === "undefined") {
           setIsAuthorized(true);
@@ -273,6 +273,7 @@ function App() {
       .finally(setTooltipOn(true));
   }
 
+  /*
   function tokenCheck() {
     const token = localStorage.getItem("token");
 
@@ -289,7 +290,7 @@ function App() {
           console.log("An error occurred: ", error);
         });
     }
-  }
+  }*/
 
   function redirectRegister() {
     history.push("/signup");
